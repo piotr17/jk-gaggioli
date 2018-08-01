@@ -1,9 +1,8 @@
 ---
-title: Esempio 1
+title: Example Page
 layout: page
-date: 2018-07-10 17:58:59 +0000
+date: 2018-06-01 14:07:37 +0000
 tags: []
 gallery: ['https://placehold.it/1920x800','https://placehold.it/1920x800']
-category: Categoria 1
-
+category: Category1
 ---
