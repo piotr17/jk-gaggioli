@@ -1,0 +1,39 @@
+<nav class="navbar navbar-expand-md navbar-light {% if page.layout =='home' %}
+fixed-top navbar-dark
+{% endif %}">
+    <a class="navbar-brand" href="/{{page.collection}}">{{site.title}}</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav  mr-auto my-lg-0">
+            {% if page.url == "/" %} {% assign lang = "it" %} {% else %} {% assign lang = page.collection %} {% endif %} {% assign col = site.collections | where: "label", lang | first %} {% assign items = col.docs %} {% assign catGroup = items | group_by:'category'
+            %} {% for cat in catGroup %} {% if cat.name != "" %}
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="{{cat.name | slugify }}" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{cat.name | slugify }}</a>
+                </a> {% if col != "" %}
+                <div class="dropdown-menu" aria-labelledby="{{cat.name | slugify }}">
+                    <ul>
+                        {% assign articles = cat.items %} {% for article in articles %}
+                        <a class="dropdown-item" href="{{article.url}}">{{article.title}}</a> {% endfor %}
+                    </ul>
+                </div>
+                {% endif %} {% endif %}
+            </li>{%endfor%}
+
+
+
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="/eng">English</a></li>
+                <li class="nav-item"><a class="nav-link" href="/it">Italiano</a></li>
+            </ul>
+        </form>
+        <button type="button" class=" my-2 my-lg-0 btn btn-lg btn-light" data-toggle="modal" data-target="#exampleModalLong">
+            Contattaci <span class="oi oi-file"></span>
+        </button>
+    </div>
+</nav>

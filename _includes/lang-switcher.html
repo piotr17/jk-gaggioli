@@ -1,0 +1,8 @@
+{% assign lang = page.collection %} {% assign col = site.collections | where: "label", lang | first %} {% assign items = col.docs %} {%assign catGroup = items | group_by:'category' %} {% for cat in catGroup %}
+<h3>{{cat.name}} </h3>
+<ul class="list-unstyled">
+    {% assign articles = cat.items %} {% for article in articles %}
+    <li><a href="{{article.url}}">{{article.title}}</a></li>
+    {% endfor %}
+</ul>
+{% endfor %}

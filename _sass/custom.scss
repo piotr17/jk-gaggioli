@@ -1,0 +1,62 @@
+@import 'palette';
+@import 'slider';
+@import 'jekyll-layouts-includes';
+@import url('https://fonts.googleapis.com/css?family=Lato:300|Rufina:700');
+$font-stack-h:'Rufina';
+$font-stack-p:'Lato',
+sans-serif;
+body {
+    color: $color-primary-4;
+    font-family: $font-stack-p
+}
+
+.crop {
+    width: 1200px;
+    height: 150px;
+    overflow: hidden;
+}
+
+a {
+    color: $color-secondary-2-0;
+}
+
+.navbar {
+    font-family: $font-stack-h;
+    a.nav-link {
+        color: #FFFFFF;
+        font-weight: 600;
+    }
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #FFFFFF;
+}
+
+.footer {
+    background-color: $color-secondary-1-0;
+    color: $color-primary-1;
+    a {
+        color: $color-primary-1
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: $color-primary-2
+    }
+}
+
+
+/* Typo */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $font-stack-h;
+    color: $color-secondary-1-4;
+}

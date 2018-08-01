@@ -1,0 +1,17 @@
+{% assign lang = page.collection %} {% assign col = site.collections | where: "label", lang | first %} {% assign items = col.docs %} {%assign catGroup = items | group_by:'category' %} {% for cat in catGroup %}
+<section>
+    <h3>{{cat.name}}</h3>
+    {% assign articles = cat.items %}
+    <div class="d-flex flex-row flex-wrap align-self-stretch">
+        {% for article in articles %}
+        <div class="card col-md-4 p-2">
+            <div class="card-body">
+                <h4 class="card-title"><a href="{{ article.url }}">{{ article.title }}</a></h4>
+                <p class="card-text">{{ article.excerpt | strip_html | truncate: 150, " ..." }}</p>
+                <a class="btn" href="{{ article.url }}">Vai</a>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+{% endfor %}

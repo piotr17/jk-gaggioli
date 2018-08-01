@@ -1,0 +1,27 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="{{page.description}}">
+<meta name="author" content="{{page.author}}">
+<meta property="og:url" content="{{page.url}}" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="{{ page.title }}" />
+<meta property="og:description" content="{{ page.description }}" /> {% assign pagecontent = {{content | strip_html}} %}
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org/",
+        "@type": "article",
+        "name": "{{ page.title }}",
+        "articleBody": "{{pagecontent | strip_newlines}}",
+        "description": "{{page.description}}",
+        "author": "{{site.author}}",
+        "datePublished": "{{page.date}}",
+        "headline": "{{page.description}}",
+        "publisher": {
+            "@type": "Organization",
+            "name": "{{site.title}}",
+            "logo": "{{site.logo}}"
+        },
+        "image": "{{page.image}}"
+
+    }
+</script>

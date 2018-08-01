@@ -1,0 +1,19 @@
+<footer class=" footer py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md"><small class="d-block mb-3">{{site.title}} &copy; {{ 'now' | date: "%Y" }}</small>
+            </div>
+            <div class="col-6 col-md">
+                <h5><a href="/_posts/">Posts</a></h5>
+                <ul class="list-unstyled">
+                    {% include posts-loop.html %}
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                {% assign lang = page.collection %} {% assign col = site.collections | where: "label", lang | first %}
+                <h5>{{lang}}</h5>
+                {% include lang-switcher.html %}
+            </div>
+
+        </div>
+</footer>

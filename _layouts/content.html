@@ -1,0 +1,36 @@
+<!doctype html>{% assign lang = page.collection %}
+<html lang="{{lang}}">
+
+<head>
+    {% include head.html %}
+</head>
+
+<body>
+    {% include header.html %}
+    <section class="content-include">
+        {% include carousel--content.html %}
+
+    </section>
+    <main role="main" class="container">
+        <div class="row p-5">
+            <div class="col-lg-3">
+                <h3>{{page.title}}</h3>
+            </div>
+
+
+            <div class="col-lg-9"> {{ content }}
+
+                <p> {% for tag in page.tags %} {tag} {% endfor %}</p>
+            </div>
+        </div>
+        </div>
+
+
+    </main>
+    <section>
+        {% include contact-form.html %}
+    </section>
+    {% include footer.html %} {% include footer-scripts.html %}
+</body>
+
+</html>
