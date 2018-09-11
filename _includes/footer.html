@@ -1,19 +1,11 @@
 <footer class=" footer py-5">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md"><small class="d-block mb-3">{{site.title}} &copy; {{ 'now' | date: "%Y" }}</small>
+            <div class="col-12 col-md text-center">
+                <h4 class="d-block mb-3">{{site.title}} &copy; {{ 'now' | date: "%Y" }}</h4>
+                <p>
+                    Email: <a href="mailto:info@gaggiolisposi.it" onclick="gaEvent('ClickMail', 'Click/Touch','Footer');">info@gaggiolisposi.it</a> / P.Iva 01768390567 / <a href="privacy.asp.html">Privacy</a> - <a href="cookie.asp.html">Cookie</a>
+                </p>
             </div>
-            <div class="col-6 col-md">
-                <h5><a href="/_posts/">Posts</a></h5>
-                <ul class="list-unstyled">
-                    {% include posts-loop.html %}
-                </ul>
-            </div>
-            <div class="col-6 col-md">
-                {% assign lang = page.collection %} {% assign col = site.collections | where: "label", lang | first %}
-                <h5>{{lang}}</h5>
-                {% include lang-switcher.html %}
-            </div>
-
         </div>
 </footer>

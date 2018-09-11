@@ -1,13 +1,29 @@
-<nav class="navbar navbar-expand-md navbar-light {% if page.layout =='home' %}
-fixed-top navbar-dark
-{% endif %}">
-    <a class="navbar-brand" href="/{{page.collection}}">{{site.title}}</a>
+<nav class="navbar navbar-expand-md navbar-light" {% if page.layout=='home' %} style="background-color: #FFFFFF;" {% endif %}>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav  mr-auto my-lg-0">
+            <li class="nav-item">
+                <a class="nav-link" href='chi-siamo-abiti-da-sposa-viterbo-sposo-vestiti-cerimonia.asp.html'><strong>Chi siamo</strong></a></li>
+            <li class="nav-item ">
+                <a class="nav-link" href='abiti-sposo-viterbo.html'><strong>Sposo</strong></a></li>
+            <li class="nav-item ">
+                <a class="nav-link" href='abiti-sposa-viterbo.html'><strong>Sposa</strong></a></li>
+            <li class="nav-item ">
+                <a class="nav-link" href='outlet-abiti-da-sposa-sposo-cerinomia.asp.html'><strong>Outlet</strong></a></li>
+            <li class="nav-item">
+                <a class="nav-link" href='accessori.asp.html'><strong>Accessori</strong></a></li>
+            <li class="nav-item">
+                <a class="nav-link" href='blog-abiti-da-sposa-viterbo-sposo-vestiti-cerimonia.asp.html'><strong>Blog</strong></a></li>
+            <li class="nav-item ">
+                <a class="nav-link" href='punti-vendita-viterbo-acquapendente.asp.html'><strong>Punti vendita/Contatti</strong></a></li>
+            <li class="nav-item ">
+                <a class="nav-link" href='abiti-da-cerimonia.asp.html'><strong>Cerimonia</strong></a></li>
+            <li>
+                <a href='gaggioli-casa.asp.html'><img src="gaggioli-casa-logo.png" width="24"><strong> Casa</strong></a>
+            </li>
             {% if page.url == "/" %} {% assign lang = "it" %} {% else %} {% assign lang = page.collection %} {% endif %} {% assign col = site.collections | where: "label", lang | first %} {% assign items = col.docs %} {% assign catGroup = items | group_by:'category'
             %} {% for cat in catGroup %} {% if cat.name != "" %}
             <li class="nav-item dropdown">
@@ -25,13 +41,6 @@ fixed-top navbar-dark
 
 
         </ul>
-        <form class="form-inline my-2 my-lg-0">
-
-            <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link" href="/eng">English</a></li>
-                <li class="nav-item"><a class="nav-link" href="/it">Italiano</a></li>
-            </ul>
-        </form>
         <button type="button" class=" my-2 my-lg-0 btn btn-lg btn-light" data-toggle="modal" data-target="#exampleModalLong">
             Contattaci <span class="oi oi-file"></span>
         </button>
