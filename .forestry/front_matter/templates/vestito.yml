@@ -23,6 +23,7 @@ fields:
     required: true
   label: Marca Sposo
   name: brand
+  default: Cleofefinati
 - type: select
   config:
     source:
@@ -34,5 +35,15 @@ fields:
 - type: file
   name: image
   label: Immagine Principale
+- type: select
+  name: layout
+  config:
+    source:
+      type: simple
+    options:
+    - vestito
+    required: true
+  label: layout
+  description: Layout della pagina
 pages:
 - _it/abito-sposo/vestito-da-sposo.md
