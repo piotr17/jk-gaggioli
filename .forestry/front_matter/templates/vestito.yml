@@ -34,3 +34,5 @@ fields:
 - type: file
   name: image
   label: Immagine Principale
+pages:
+- _it/abito-sposo/vestito-da-sposo.md
