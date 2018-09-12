@@ -1,0 +1,9 @@
+---
+label: vestito
+hide_body: false
+is_partial: false
+fields:
+- type: select
+  config:
+    source:
+      type: datafiles
