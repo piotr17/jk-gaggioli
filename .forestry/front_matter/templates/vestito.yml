@@ -14,12 +14,14 @@ fields:
   label: Categoria
   name: category
   description: Sposo/Sposa
+  default: sposo
 - type: select
   config:
     source:
       type: datafiles
+      file: _data-sposo-marche-yml
     required: true
-  label: Marca
+  label: Marca Sposo
   name: brand
 - type: file
   name: image
