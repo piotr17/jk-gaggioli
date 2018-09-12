@@ -1,0 +1,26 @@
+---
+label: vestito
+hide_body: false
+is_partial: false
+fields:
+- type: select
+  config:
+    source:
+      type: simple
+    required: true
+    options:
+    - sposo
+    - sposa
+  label: Categoria
+  name: category
+  description: Sposo/Sposa
+- type: select
+  config:
+    source:
+      type: datafiles
+    required: true
+  label: Marca
+  name: brand
+- type: file
+  name: image
+  label: Immagine Principale

@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 Cleofefinati:
   logo: "https://placehold.it/300x300"
 brand2:
   logo: "https://placehold.it/300x300"
 brand3:
   logo: "https://placehold.it/300x300"
+=======
+---
+- marca: Gaggioli Sposi
+  logo: ''
+- marca: CleofeFinati
+  logo: https://placehold.it/300x300
+>>>>>>> 47ea677b8f12953acd37c34fcd440c92b8331375
