@@ -23,6 +23,14 @@ fields:
     required: true
   label: Marca Sposo
   name: brand
+- type: select
+  config:
+    source:
+      type: datafiles
+      file: _data-sposa-marche-yml
+  label: Marca SPosa
+  name: marca_sposa
+  description: Compilare solo 1
 - type: file
   name: image
   label: Immagine Principale
