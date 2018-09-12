@@ -18,5 +18,6 @@ fields:
     description: Immagine di media risoluzione
   hidden: false
   default: ''
-pages:
+data_files:
 - _data/sposa/marche.yml
+- _data/sposo/marche.yml
