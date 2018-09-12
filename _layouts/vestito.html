@@ -9,17 +9,23 @@
     {% include header.html %}
     <main role="main" class="container">
         <div class="row p-5">
-            <div class="col-lg-3">
-                <h3>{{page.title}}</h3>
-            </div>{% assign brand = page.brand %} {{brand}}
-            <div>{% assign obj = site.data.sposo.marche[page.brand] %} {{ obj.logo }}
-            </div>
+            <div class="col-lg-12">
+                <h2>{{page.title}}</h2>
+                {% assign brand = page.brand %}
+                <h3> {{brand}}</h3>
+                <div>{% assign obj = site.data.sposo.marche[page.brand] %} {{ obj.logo }}
 
-            <div class="col-lg-9"> {{ content }}
+                    <p>
+                        {{ content }}
+                    </p>
+                </div>
 
-                <p> {% for tag in page.tags %} {tag} {% endfor %}</p>
+                <div>
+                    <img src="{{page.image}}" alt="{{page.title}}" class="img-fluid">
+                </div>
+
+
             </div>
-        </div>
         </div>
 
 
