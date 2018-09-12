@@ -19,5 +19,5 @@ fields:
   hidden: false
   default: ''
 data_files:
-- _data/sposa/marche.yml
 - _data/sposo/marche.yml
+- _data/sposa/marche.yml
