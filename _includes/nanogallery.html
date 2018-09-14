@@ -1,10 +1,17 @@
-{% assign lang = page.collection %} {% assign col = site.collections | where: "label", lang | first %} {% assign items = col.docs %} {%assign catGroup = items | group_by:'category' %} {% for cat in catGroup %}
+{% assign lang = page.collection %} 
+{% assign col = site.collections | where: "label", lang | first %} 
+{% assign items = col.docs %} 
+{% assign catGroup = items | filter:'marche' %} 
+{% for cat in catGroup %}
 <section>
     <h3>{{cat.name}}</h3>
     {% assign articles = cat.items %}
-    <div id="nanogallery2" data-nanogallery2='{ "thumbnailHeight": 150, "thumbnailWidth": 150, "itemsBaseURL": "http://nanogallery2.nanostudio.org/samples/" }'>
+    <div id="nanogallery2" data-nanogallery2='{ "thumbnailHeight": 250, "thumbnailWidth": 250}'>
         {% for article in articles %}
-        <a href="{{article.image}}" data-ngThumb="{{article.image}}"> {{article.title}} </a> {% endfor %}
+        {% if article.image != empty %}
+        <a href="{{article.image}}" data-ngThumb="{{article.image}}"> {{article.title}} </a> 
+        {% endif %}
+        {% endfor %}
     </div>
 </section>
 {% endfor %}

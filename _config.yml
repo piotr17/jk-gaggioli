@@ -30,9 +30,11 @@ sass:
   sass_dir: _sass
   style: compressed
 collections:
-  it:
+  abito-sposo:
     output: true
-  eng:
+  abito-sposa:
+    output: true
+  it:
     output: true
   category:
     output: true

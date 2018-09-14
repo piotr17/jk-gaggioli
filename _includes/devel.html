@@ -4,3 +4,7 @@
     </h3> Categoria : {{page.category}}
     <br> Layout: {{page.layout}} <br> Collezione: {{page.collection}}<br> Path:{{page.path}} <br>Tags : {{page.tags}} <br>Collezioni : {{site.collections}}<br> Data: {{site.data}}
 </div>
+
+<div class="card">
+    {% assign mydocs = site.abito-sposo | group_by : 'brand' %} {% for cat in mydocs %} {% if cat.name != empty %} {% assign label = cat.name %}{{site.data.marche.label}} {% endif %} {% endfor %}
+</div>

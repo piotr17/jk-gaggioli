@@ -1,0 +1,13 @@
+{% assign pagecol = page.collection %}
+{% assign marche = site.data[pagecol].marche %}
+{% assign catGroup = items | group_by:'brand' %} 
+
+<section class="d-flex flex-row">
+{% for cat in catGroup %}
+        <div class="card">
+                {{marche[cat.name].humans}}<br>
+                <img class="img-fluid" src="{{marche[cat.name].logo}}" >
+        </div>
+{% endfor %}
+</section>
+

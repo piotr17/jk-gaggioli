@@ -1,10 +1,9 @@
----
+GaggioliSposi:
+  humans: "Gaggioli Sposi"
+  logo: "/uploads/logo-gaggioli-sposi-centrato.jpg"
 Cleofefinati:
   logo: https://placehold.it/300x300
 brand2:
   logo: https://placehold.it/300x300
 brand3:
   logo: https://placehold.it/300x300
-Marche:
-- marca: Gaggioli Sposi
-  logo: "/uploads/logo-gaggioli-sposi-centrato.jpg"

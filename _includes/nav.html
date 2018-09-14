@@ -9,21 +9,21 @@
             <li class="nav-item">
                 <a class="nav-link" href='chi-siamo-abiti-da-sposa-viterbo-sposo-vestiti-cerimonia.asp.html'><strong>Chi siamo</strong></a></li>
             <li class="nav-item ">
-                <a class="nav-link" href='/it/abito-sposo/'><strong>Sposo</strong></a></li>
+                <a class="nav-link" href='/abito-sposo/'><strong>Sposo</strong></a></li>
             <li class="nav-item ">
-                <a class="nav-link" href='/it/abito-sposa/'><strong>Sposa</strong></a></li>
+                <a class="nav-link" href='/abito-sposa/'><strong>Sposa</strong></a></li>
             <li class="nav-item ">
-                <a class="nav-link" href='outlet-abiti-da-sposa-sposo-cerinomia.asp.html'><strong>Outlet</strong></a></li>
+                <a class="nav-link" href='/outlet/'><strong>Outlet</strong></a></li>
             <li class="nav-item">
-                <a class="nav-link" href='accessori.asp.html'><strong>Accessori</strong></a></li>
+                <a class="nav-link" href='/accessori/'><strong>Accessori</strong></a></li>
             <li class="nav-item">
                 <a class="nav-link" href='blog-abiti-da-sposa-viterbo-sposo-vestiti-cerimonia.asp.html'><strong>Blog</strong></a></li>
             <li class="nav-item ">
                 <a class="nav-link" href='punti-vendita-viterbo-acquapendente.asp.html'><strong>Punti vendita/Contatti</strong></a></li>
             <li class="nav-item ">
                 <a class="nav-link" href='abiti-da-cerimonia.asp.html'><strong>Cerimonia</strong></a></li>
-            <li>
-                <a href='gaggioli-casa.asp.html'><strong> Casa</strong></a>
+            <li class="nav-item">
+                <a class="nav-link" href='gaggioli-casa.asp.html'><strong> Casa</strong></a>
             </li>
             {% if page.url == "/" %} {% assign lang = "it" %} {% else %} {% assign lang = page.collection %} {% endif %} {% assign col = site.collections | where: "label", lang | first %} {% assign items = col.docs %} {% assign catGroup = items | group_by:'category'
             %} {% for cat in catGroup %} {% if cat.name != "" %}
