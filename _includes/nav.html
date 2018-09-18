@@ -9,7 +9,7 @@
             <li class="nav-item">
                 <a class="nav-link" href='chi-siamo-abiti-da-sposa-viterbo-sposo-vestiti-cerimonia.asp.html'><strong>Chi siamo</strong></a></li>
             <li class="nav-item ">
-                <a class="nav-link" href='/abito-sposo/'><strong>Sposo</strong></a></li>
+                <a class="nav-link" href='/sposo/'><strong>Sposo</strong></a></li>
             <li class="nav-item ">
                 <a class="nav-link" href='/abito-sposa/'><strong>Sposa</strong></a></li>
             <li class="nav-item ">
@@ -25,19 +25,17 @@
             <li class="nav-item">
                 <a class="nav-link" href='gaggioli-casa.asp.html'><strong> Casa</strong></a>
             </li>
-            {% if page.url == "/" %} {% assign lang = "it" %} {% else %} {% assign lang = page.collection %} {% endif %} {% assign col = site.collections | where: "label", lang | first %} {% assign items = col.docs %} {% assign catGroup = items | group_by:'category'
-            %} {% for cat in catGroup %} {% if cat.name != "" %}
+            {% assign col = site.collections %} {% assign items = col.docs %}
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="{{cat.name | slugify }}" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{cat.name | slugify }}</a>
-                </a> {% if col != "" %}
+                </a>
                 <div class="dropdown-menu" aria-labelledby="{{cat.name | slugify }}">
-                    <ul>
-                        {% assign articles = cat.items %} {% for article in articles %}
-                        <a class="dropdown-item" href="{{article.url}}">{{article.title}}</a> {% endfor %}
+                    <ul> {% for article in items %}
+                        <a class="dropdown-item" href="{{article.url}}">{{article.label}}</a> {% endfor %}
                     </ul>
                 </div>
-                {% endif %} {% endif %}
-            </li>{%endfor%}
+
+            </li>
 
 
 

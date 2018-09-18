@@ -1,4 +1,8 @@
-- path: "marca1"
+marca1:
   type: sposo
-  title: "Marca Importante"
+  title: "Marca 1"
+  logo: https://picsum.photos/200/300/?random
+marca2:
+  type: sposo
+  title: "Marca 2"
   logo: https://picsum.photos/200/300/?random
