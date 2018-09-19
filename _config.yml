@@ -28,6 +28,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-menus
+
 sass:
   sass_dir: _sass
   style: compressed
