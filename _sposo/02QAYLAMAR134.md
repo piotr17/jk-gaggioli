@@ -1,0 +1,6 @@
+---
+title: 02-QAYLA-MAR1347
+image: 02-QAYLA-MAR1347.jpg
+brand: martha-blanc
+layout: vestito
+---

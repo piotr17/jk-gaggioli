@@ -1,12 +1,15 @@
  {% assign collection = site[page.collection] | group_by : "brand" %} {% for item in collection %} {% assign marca = site.data.marche[item.name] %} <img src="{{marca.logo}}">
 <h4>{{marca.title}}</h4><br> {%assign elements = item.items %}
-<section class="d-flex flex-row align-items-between">
-    {% for item in elements %}
-    <div class="card">
-        <h3><a href="{{item.url}}">{{item.title}}</a></h3>
-        <br>
-        <img src="{{item.image}}" alt="" srcset=""></div>
-    {% endfor %}
+<section class="d-flex flex-row flex-wrap align-items-stretch">
+    {% for item in elements %} {% if item.image != "" %}
+
+    <div class="col-sm-6 col-lg-2">
+        <div class="card shadow">
+            <a href="{{item.url}}">
+                <img class="card-img-top card-img-crop img-fluid" src="/uploads/2018/{{item.brand}}/thumbs/{{item.image}}" alt="{{item.title}}"></a>
+        </div>
+    </div>
+    {% endif %} {% endfor %}
 </section>
 
 

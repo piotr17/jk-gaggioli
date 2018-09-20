@@ -60,3 +60,9 @@ h6 {
     font-family: $font-stack-h;
     color: $color-secondary-1-4;
 }
+
+.card-img-crop {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+}
