@@ -1,17 +1,21 @@
- {% assign collection = site[page.collection] | group_by : "brand" %} {% for item in collection %} {% assign marca = site.data.marche[item.name] %} <img src="{{marca.logo}}">
-<h4>{{marca.title}}</h4><br> {%assign elements = item.items %}
-<section class="d-flex flex-row flex-wrap align-items-stretch">
-    {% for item in elements %} {% if item.image != "" %}
-
-    <div class="col-sm-6 col-lg-2">
-        <div class="card shadow">
-            <a href="{{item.url}}">
-                <img class="card-img-top card-img-crop img-fluid" src="/uploads/2018/{{item.brand}}/thumbs/{{item.image}}" alt="{{item.title}}"></a>
+{% assign collection = site[page.collection] %} {% assign marca = site.data.marche[item.name] %} {% assign elements = item.items %}
+<section class="">
+    {% assign group = site[page.collection] | group_by : "brand" %}
+    <div class="button-group filter-button-group">
+        <div class="d-flex flex-row align-items-center justify-content-around flex-wrap">
+            <button class="btn btn-lg btn-dark" data-filter="*">Tutti </button> {% for item in group %}
+            <button class="btn btn-lg btn-link" data-filter=".{{item.name}}"><img src="{{site.data.marche[item.name].logo}}" width="150" alt="{{item.name}}"></button> {% endfor %}
         </div>
     </div>
-    {% endif %} {% endfor %}
+
+    <div class="grid">
+        {% for item in collection %} {% if item.brand %}
+
+
+        <div class="grid-item {{item.brand}} card shadow">
+            <a href="{{item.url}}">
+                <img src="/uploads/2018/{{item.brand}}/thumbs/{{item.image}}" class="card-img-top" alt="{{item.title}}"></a>
+        </div>
+        {% endif %} {% endfor %}
+    </div>
 </section>
-
-
-
-{% endfor %}

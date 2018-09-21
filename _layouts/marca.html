@@ -6,6 +6,7 @@
 </head>
 
 <body>
+    {% include gtmbody.html %}
     <!-- MENU -->
     {% include header.html %}
     <main>{% assign marca = page.collection.marca1 %} {{marca}} {% for item in marca %}{{item}} {% endfor %}

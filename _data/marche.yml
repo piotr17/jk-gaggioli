@@ -2,15 +2,83 @@ marca1:
   type: sposo
   title: "Marca 1"
   logo: https://picsum.photos/200/300/?random
-marca2:
+sposo:
   type: sposo
-  title: "Marca 2"
-  logo: https://picsum.photos/200/300/?random
+  title: "Classic"
+  logo: /assets/img/abiti-sposo/thumb-collection.jpg
 vivie:
   type: sposo
-  title: "vivie"
-  logo: https://picsum.photos/200/300/?random
+  title: "Vivie"
+  logo: /assets/img/abiti-sposa/thumb-vivie.jpg
 ego:
+  type: sposa
+  title: "Ego"
+  logo: /assets/img/abiti-sposa/thumb-ego.jpg
+vivie:
   type: sposo
-  title: "ego"
-  logo: https://picsum.photos/200/300/?random
+  title: "Vivie"
+  logo: /assets/img/abiti-sposa/thumb-vivie.jpg
+rosa-clara:
+  type: sposo
+  title: "rosa-clara"
+  logo: /assets/img/abiti-sposa/thumb-rosa-clara.jpg
+mori-lee:
+  type: sposo
+  title: "mori-lee"
+  logo: /assets/img/abiti-sposa/thumb-mori-lee.jpg
+petrelli:
+  type: sposo
+  title: "Petrelli"
+  logo: /assets/img/abiti-sposo/thumb-petrelli.jpg
+lubiam:
+  type: sposo
+  title: "Lubiam"
+  logo: /assets/img/abiti-sposo/thumb-lubiam.jpg
+Scribano1966:
+  type: sposo
+  title: "Scribano 1966"
+  logo: /assets/img/abiti-sposo/thumb-scribano1966.jpg
+Inmaculada-Garcia:
+  type: sposa
+  title: "Inmaculada Garcia"
+  logo: /assets/img/abiti-sposa/thumb-Inmaculada-Garcia.jpg
+rembo-styling:
+  type: sposa
+  title: "rembo-styling"
+  logo: /assets/img/abiti-sposa/thumb-rembo-styling.jpg
+scribano:
+  type: sposa
+  title: "scribano"
+  logo: /assets/img/abiti-sposa/thumb-scribano.jpg
+elisabetta-polignano:
+  type: sposa
+  title: "elisabetta-polignano"
+  logo: /assets/img/abiti-sposa/thumb-elisabetta-polignano.jpg
+joie-de-vivre:
+  type: sposa
+  title: " joie-de-vivre"
+  logo: /assets/img/abiti-sposa/thumb-joie-de-vivre.jpg
+graziana-valentini:
+  type: sposa
+  title: "graziana-valentini"
+  logo: /assets/img/abiti-sposa/thumb-graziana-valentini.jpg
+jolies:
+  type: sposa
+  title: "jolies"
+  logo: /assets/img/abiti-sposa/jolies.jpg
+gaggioli-sposi:
+  type: sposa
+  title: "scribano"
+  logo: /assets/img/abiti-sposa/scribano.jpg
+martha-blanc:
+  type: sposa
+  title: "martha-blanc"
+  logo: /assets/img/abiti-sposa/martha-blanc.jpg
+valentini:
+  type: sposa
+  title: "valentini"
+  logo: /assets/img/abiti-sposa/valentini.jpg
+jolie:
+  type: sposa
+  title: "jolie"
+  logo: /assets/img/abiti-sposa/jolie.jpg
