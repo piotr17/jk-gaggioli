@@ -1,0 +1,27 @@
+---
+label: vestito
+hide_body: false
+is_partial: false
+fields:
+- type: file
+  name: image
+  label: Immagine Principale
+- type: select
+  name: layout
+  config:
+    source:
+      type: simple
+    options:
+    - vestito
+    required: true
+  label: layout
+  description: Layout della pagina
+  default: vestito
+- type: select
+  name: marca
+  config:
+    source:
+      type: datafiles
+      file: _data-marche-yml
+    required: true
+  label: Marca
