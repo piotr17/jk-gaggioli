@@ -8,18 +8,18 @@
     {% include header.html %}
     <main role="main" class="container-fluid">
         <div class="row p-5">
-            <div class="col-lg-3">
+            <div class="col-lg-2">
 
                 <div>{% assign obj = site.data.marche[page.brand] %} <img src="{{ obj.logo }}" alt=""><br>
                     <small>Codice Abito : {{page.title}}</small>
                 </div>
-                {% include vestito--abiti-loop.html %}
-</div><div class="col lg-9">
+               
+</div><div class="col-lg-7">
    
                     <img src="/uploads/2018/{{page.brand}}/big/{{page.image}}" alt="{{page.title}}" class="img-fluid shadow rounded mx-auto d-block">
 
             </div>
-
+<div class="col lg-3"> {% include vestito--abiti-loop.html %}</div>
             </div>
         </div>
     </main>

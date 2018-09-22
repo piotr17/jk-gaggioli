@@ -3,7 +3,7 @@
  {% assign marca = site.data.marche[item.name] %} 
 {%assign brand = page.brand %}
 <section class="d-flex flex-row flex-wrap align-items-stretch">
-    {% for item in site[page.collection] | where : "brand",page.brand %} 
+    {% for item in site[page.collection] | where : "brand",brand %} 
     {% if item.image%}
 
     <div class="col-sm-12 col-lg-6">
