@@ -4,7 +4,7 @@
     <div class="button-group filter-button-group">
         <div class="d-flex flex-row align-items-center justify-content-center align-content-stretch flex-wrap">
             <button class="btn btn-lg img-thumbnail" data-filter="*">Tutti </button> {% for item in group %}
-            <button class="btn btn-lg btn-link" data-filter=".{{item.name}}"><img src="{{site.data.marche[item.name].logo}}" class="img-thumbnail" alt="{{item.name}}"></button> {% endfor %}
+            <button class="btn btn-lg btn-link btn-brand" data-filter=".{{item.name}}"><img src="{{site.data.marche[item.name].logo}}" class="img-thumbnail" alt="{{item.name}}"></button> {% endfor %}
         </div>
     </div>
 

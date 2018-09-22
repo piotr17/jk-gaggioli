@@ -32,19 +32,6 @@
             <li class="nav-item">
                 <a class="nav-link" href='gaggioli-casa.html'><strong> Casa</strong></a>
             </li>
-
-            {% if menu %}
-            <ul>
-                {% for item in menu %}
-                <li class="menu-item-{{ loop.index }}">
-                    <a href="{{ item.url }}" title="Go to {{ item.title }}">{{ item.title }}</a> {% if item.children %} {% assign menu = item.children %} {% include menu.html %} {% endif %}
-                </li>
-                {% endfor %}
-            </ul>
-            {% endif %}
-
-
-
         </ul>
         <button type="button" class=" my-2 my-lg-0 btn btn-lg btn-light" data-toggle="modal" data-target="#exampleModalLong">
             Contattaci <span class="oi oi-file"></span>

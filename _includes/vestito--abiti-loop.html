@@ -1,13 +1,11 @@
- {% assign collection = site[page.collection] | group_by : "brand" %} 
- {% for item in collection %} 
- {% assign marca = site.data.marche[item.name] %} 
 {%assign brand = page.brand %}
 <section class="d-flex flex-row flex-wrap align-items-stretch">
-    {% for item in site[page.collection] | where : "brand",brand %} 
+    {% assign related = site[page.collection] | where : "brand",brand %}
+    {% for item in related %} 
     {% if item.image%}
 
     <div class="col-sm-12 col-lg-6">
-        <div class="card shadow">
+        <div class="card shadow-lg">
             <a href="{{item.url}}">
                 <img class="card-img-top card-img-crop img-fluid" src="/uploads/2018/{{item.brand}}/thumbs/{{item.image}}" alt="{{item.title}}"></a>
         </div>
@@ -17,4 +15,3 @@
 
 
 
-{% endfor %}
