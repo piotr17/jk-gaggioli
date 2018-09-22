@@ -12,10 +12,8 @@
         {% for item in collection %} 
         {% if item.brand %}
 <div class="grid-sizer col-md-2"></div>
-
         <div class="grid-item {{item.brand}} card shadow">
-            <a href="{{item.url}}">
-                <img src="/uploads/2018/{{item.brand}}/thumbs/{{item.image}}" class="card-img-top" alt="{{item.title}}"></a>
+            <a href="{{item.url}}"><img src="/uploads/2018/{{item.brand}}/thumbs/{{item.image}}" class="card-img-top" alt="{{item.title}}"></a>
         </div>
         {% endif %} {% endfor %}
     </div> 
