@@ -12,8 +12,15 @@
                 <a class="nav-link" href='/sposo/'><strong>Sposo</strong></a></li>
             <li class="nav-item ">
                 <a class="nav-link" href='/sposa/'><strong>Sposa</strong></a></li>
-            <li class="nav-item ">
-                <a class="nav-link" href='/outlet/'><strong>Outlet</strong></a></li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href='#' id="outlet" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><strong>Outlet</strong></a>
+                <div class="dropdown-menu" aria-labelledby="outlet">
+  
+                        <a class="dropdown-item" href="/outlet-sposa/">Sposa</a>
+                        <a class="dropdown-item" href="/outlet-sposo/">Sposo</a> 
+                        <a class="dropdown-item" href="/outlet-cerimonia/">Cerimonia</a>  
+
+                </div></li>
             <li class="nav-item">
                 <a class="nav-link" href='/accessori/'><strong>Accessori</strong></a></li>
             <li class="nav-item">
@@ -25,17 +32,7 @@
             <li class="nav-item">
                 <a class="nav-link" href='gaggioli-casa.html'><strong> Casa</strong></a>
             </li>
-            {% assign col = site.collections %} {% assign items = col.docs %}
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="{{cat.name | slugify }}" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{cat.name | slugify }}</a>
-                </a>
-                <div class="dropdown-menu" aria-labelledby="{{cat.name | slugify }}">
-                    <ul> {% for article in items %}
-                        <a class="dropdown-item" href="{{article.url}}">{{article.label}}</a> {% endfor %}
-                    </ul>
-                </div>
 
-            </li>
             {% if menu %}
             <ul>
                 {% for item in menu %}

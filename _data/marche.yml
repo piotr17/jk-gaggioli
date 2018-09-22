@@ -37,11 +37,11 @@ lubiam:
 Scribano1966:
   type: sposo
   title: "Scribano 1966"
-  logo: /assets/img/abiti-sposo/thumb-scribano1966.jpg
+  logo: /assets/img/abiti-sposo/scribano1966.jpg
 Inmaculada-Garcia:
   type: sposa
   title: "Inmaculada Garcia"
-  logo: /assets/img/abiti-sposa/thumb-Inmaculada-Garcia.jpg
+  logo: /assets/img/abiti-sposa/thumb-inmaculada.jpg
 rembo-styling:
   type: sposa
   title: "rembo-styling"
@@ -53,11 +53,11 @@ scribano:
 elisabetta-polignano:
   type: sposa
   title: "elisabetta-polignano"
-  logo: /assets/img/abiti-sposa/thumb-elisabetta-polignano.jpg
+  logo: /assets/img/abiti-sposa/thumb-polignano.jpg
 joie-de-vivre:
   type: sposa
   title: " joie-de-vivre"
-  logo: /assets/img/abiti-sposa/thumb-joie-de-vivre.jpg
+  logo: /assets/img/abiti-sposa/thumb-joie.jpg
 graziana-valentini:
   type: sposa
   title: "graziana-valentini"
@@ -65,20 +65,36 @@ graziana-valentini:
 jolies:
   type: sposa
   title: "jolies"
-  logo: /assets/img/abiti-sposa/jolies.jpg
+  logo: /assets/img/abiti-sposa/thumb-jolies.jpg
 gaggioli-sposi:
   type: sposa
   title: "scribano"
-  logo: /assets/img/abiti-sposa/scribano.jpg
+  logo: /assets/img/abiti-sposa/thumb-gaggioli-sposi.jpg
 martha-blanc:
   type: sposa
   title: "martha-blanc"
-  logo: /assets/img/abiti-sposa/martha-blanc.jpg
+  logo: /assets/img/abiti-sposa/thumb-marta-blanc.jpg
 valentini:
   type: sposa
   title: "valentini"
-  logo: /assets/img/abiti-sposa/valentini.jpg
+  logo: /assets/img/abiti-sposa/thumb-valentini.jpg
 jolie:
   type: sposa
   title: "jolie"
-  logo: /assets/img/abiti-sposa/jolie.jpg
+  logo: /assets/img/abiti-sposa/thumb-jolies.jpg
+damigelle-caroline:
+  type: sposa
+  title: "damigelle-caroline"
+  logo: /assets/img/abiti-sposa/thumb-damigelle-caroline.jpg
+impero:
+  type: sposa
+  title: "impero"
+  logo: /assets/img/abiti-sposa/thumb-impero.jpg
+maestri:
+  type: sposa
+  title: "Maestri"
+  logo: /assets/img/abiti-sposa/thumb-maestri-group.jpg
+sonia-pena:
+  type: sposa
+  title: "sonia-pena"
+  logo: /assets/img/abiti-sposa/thumb-sonia-pena.jpg

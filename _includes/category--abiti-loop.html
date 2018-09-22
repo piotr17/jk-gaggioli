@@ -1,21 +1,22 @@
 {% assign collection = site[page.collection] %} {% assign marca = site.data.marche[item.name] %} {% assign elements = item.items %}
-<section class="">
+<section class="container-fluid">
     {% assign group = site[page.collection] | group_by : "brand" %}
     <div class="button-group filter-button-group">
-        <div class="d-flex flex-row align-items-center justify-content-around flex-wrap">
-            <button class="btn btn-lg btn-dark" data-filter="*">Tutti </button> {% for item in group %}
-            <button class="btn btn-lg btn-link" data-filter=".{{item.name}}"><img src="{{site.data.marche[item.name].logo}}" width="150" alt="{{item.name}}"></button> {% endfor %}
+        <div class="d-flex flex-row align-items-center justify-content-center align-content-stretch flex-wrap">
+            <button class="btn btn-lg img-thumbnail" data-filter="*">Tutti </button> {% for item in group %}
+            <button class="btn btn-lg btn-link" data-filter=".{{item.name}}"><img src="{{site.data.marche[item.name].logo}}" class="img-thumbnail" alt="{{item.name}}"></button> {% endfor %}
         </div>
     </div>
 
     <div class="grid">
-        {% for item in collection %} {% if item.brand %}
-
+        {% for item in collection %} 
+        {% if item.brand %}
+<div class="grid-sizer col-md-2"></div>
 
         <div class="grid-item {{item.brand}} card shadow">
             <a href="{{item.url}}">
                 <img src="/uploads/2018/{{item.brand}}/thumbs/{{item.image}}" class="card-img-top" alt="{{item.title}}"></a>
         </div>
         {% endif %} {% endfor %}
-    </div>
+    </div> 
 </section>

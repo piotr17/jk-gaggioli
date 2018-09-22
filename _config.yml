@@ -41,6 +41,14 @@ collections:
     output: true
   accessori:
     output: true
+  outlet-sposa:
+    output: true
+  outlet-sposo:
+    output: true
+  outlet-cerimonia:
+    output: true
+  cerimonia:
+    output: true
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

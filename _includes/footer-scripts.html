@@ -10,7 +10,10 @@
     // init Isotope
     var $grid = $('.grid').isotope({
         itemSelector: '.grid-item',
-        layout: 'cellsByColumn'
+        masonry: {
+    // use element for option
+    columnWidth: '.grid-sizer'
+  }
     });
     // filter items on button click
     $('.filter-button-group').on('click', 'button', function() {
@@ -19,4 +22,7 @@
             filter: filterValue
         });
     });
+    $grid.imagesLoaded().progress( function() {
+  $grid.isotope('layout');
+});
 </script>
