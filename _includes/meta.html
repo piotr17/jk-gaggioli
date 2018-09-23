@@ -1,6 +1,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="description" content="{{page.description}}">
+
+<meta name="description" content="{% if page.description = empty %}
+    Gli Abiti da Sposa più esclusivi - Sfoglia il nostro catalogo
+    {% else %}
+    {{page.description}}
+{% endif %} ">
 <meta name="author" content="{{page.author}}">
 <meta name="Copyright" content="Gaggioli Sposi" />
 <link type="text/plain" rel="author" href="humans.txt" />
