@@ -1,5 +1,5 @@
 {%assign brand = page.brand %}
-<section class="d-flex flex-row">
+<section class="d-flex flex-row flex-sm-wrap">
     {% assign related = site[page.collection] | where : "brand",brand %}
     {% for item in related %} 
     {% if item.image%}
