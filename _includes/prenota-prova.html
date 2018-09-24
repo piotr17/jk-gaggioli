@@ -1,0 +1,48 @@
+<div class="container">
+    <div class="row">
+        <div class="col-6 col-md-12 btn" data-toggle="modal" data-target="#prenotaModal">Prenota la Prova</div>
+        <div class="col-6 col-md-12 btn"><a href="https://api.whatsapp.com/send?phone=whatsappphonenumber&text={{site.url}}{{page.url}}">Condividi</a></div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="prenotaModal" tabindex="-1" role="dialog" aria-labelledby="prenotaProva" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="prenotaProva">Prenota la tua Prova</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <form data-parsley-validate id="parsley-form">
+                    <div class="form-group">
+                        <label for="EmailAddress">Indirizzo Email</label>
+                        <input type="email" class="form-control" id="EmailAddress" aria-describedby="emailHelp" placeholder="Enter email"> </div>
+                    <div class="form-group">
+                        <label for="NameLabel">Nome</label>
+                        <input required type="text" class="form-control" id="NameLabel" placeholder="Nome">
+                    </div>
+                    <div class="form-group">
+                        <label for="SurnameLabel">Cognome</label>
+                        <input required type="text" class="form-control" id="SurnameLabel" placeholder="Cognome">
+                    </div>
+                    <div class="form-group">
+                        <label for="PhoneLabel">Telefono</label>
+                        <input required type="number" data-parsley-type="integer" class="form-control" id="PhoneLabel" placeholder="Telefono">
+                    </div>
+                    <div class="form-group">
+                        <label for="Data">Data preferita</label>
+                        <input required type="date" class="form-control" id="data" placeholder="Scegli una data">
+                    </div>
+                    <div class="form-check">
+                        <input required type="checkbox" class="form-check-input" id="privacyCheck">
+                        <label class="form-check-label" for="privacyCheck">Accetto la privacy policy</label>
+                    </div>
+                    <button type="submit" class="btn btn-lg btn-dark float-right">Invia</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

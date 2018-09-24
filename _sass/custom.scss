@@ -68,6 +68,16 @@ h6 {
     overflow: hidden;
 }
 
-.grid-sizer,
-.grid-item {}
 
+/* 3 columns by default */
+
+.grid-sizer {
+    width: 50%;
+}
+
+@media screen and (min-width: 768px) {
+    /* 5 columns for larger screens */
+    .grid-sizer {
+        width: 20%;
+    }
+}

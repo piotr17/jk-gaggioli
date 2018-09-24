@@ -38,7 +38,7 @@ Scribano1966:
   type: sposo
   title: "Scribano 1966"
   logo: /assets/img/abiti-sposo/scribano1966.jpg
-Inmaculada-Garcia:
+inmaculada:
   type: sposa
   title: "Inmaculada Garcia"
   logo: /assets/img/abiti-sposa/thumb-inmaculada.jpg
@@ -50,15 +50,15 @@ scribano:
   type: sposa
   title: "scribano"
   logo: /assets/img/abiti-sposa/thumb-scribano.jpg
-elisabetta-polignano:
+polignano:
   type: sposa
-  title: "elisabetta-polignano"
+  title: "Elisabetta Polignano"
   logo: /assets/img/abiti-sposa/thumb-polignano.jpg
 joie-de-vivre:
   type: sposa
   title: " joie-de-vivre"
   logo: /assets/img/abiti-sposa/thumb-joie.jpg
-graziana-valentini:
+valentini-couture:
   type: sposa
   title: "graziana-valentini"
   logo: /assets/img/abiti-sposa/thumb-graziana-valentini.jpg
@@ -74,9 +74,9 @@ martha-blanc:
   type: sposa
   title: "martha-blanc"
   logo: /assets/img/abiti-sposa/thumb-marta-blanc.jpg
-valentini:
+graziana-valentini:
   type: sposa
-  title: "valentini"
+  title: "Graziana Valentini"
   logo: /assets/img/abiti-sposa/thumb-valentini.jpg
 jolie:
   type: sposa
@@ -96,5 +96,9 @@ maestri:
   logo: /assets/img/abiti-sposa/thumb-maestri-group.jpg
 sonia-pena:
   type: sposa
-  title: "sonia-pena"
+  title: "Sonia Pena"
   logo: /assets/img/abiti-sposa/thumb-sonia-pena.jpg
+dalin:
+  type: sposa
+  title: "Dalin"
+  logo: /assets/img/abiti-sposa/thumb-dalin.jpg

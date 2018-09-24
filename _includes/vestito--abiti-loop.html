@@ -1,10 +1,11 @@
 {%assign brand = page.brand %}
-<section class="d-flex flex-row flex-sm-wrap">
-    {% assign related = site[page.collection] | where : "brand",brand %}
-    {% for item in related %} 
-    {% if item.image%}
+<div>
+    <a href="/{{page.collection}}">Torna agli Abiti</a>
+</div>
+<section class="d-flex flex-row flex-wrap">
+    {% assign related = site[page.collection] | where : "brand",brand %} {% for item in related %} {% if item.image%}
 
-    <div class="col-lg-6">
+    <div class="col-6 col-sm-4 col-lg-6">
         <div class="card shadow-lg">
             <a href="{{item.url}}">
                 <img class="card-img-top card-img-crop img-fluid" src="/uploads/2018/{{item.brand}}/thumbs/{{item.image}}" alt="{{item.title}}"></a>
@@ -12,6 +13,3 @@
     </div>
     {% endif %} {% endfor %}
 </section>
-
-
-
