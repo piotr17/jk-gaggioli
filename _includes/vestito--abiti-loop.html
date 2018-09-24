@@ -1,14 +1,11 @@
 {%assign brand = page.brand %}
-<div>
-    <a href="/{{page.collection}}">Torna agli Abiti</a>
-</div>
 <section class="d-flex flex-row flex-wrap">
     {% assign related = site[page.collection] | where : "brand",brand %} {% for item in related %} {% if item.image%}
 
     <div class="col-6 col-sm-4 col-lg-6">
-        <div class="card shadow-lg">
+        <div class="card shadow">
             <a href="{{item.url}}">
-                <img class="card-img-top card-img-crop img-fluid" src="/uploads/2018/{{item.brand}}/thumbs/{{item.image}}" alt="{{item.title}}"></a>
+                <img class="card-img-top object-fit_cover" src="/uploads/{{page.collection}}/thumbs/{{item.brand}}/{{item.image}}" alt="{{item.title}}"></a>
         </div>
     </div>
     {% endif %} {% endfor %}

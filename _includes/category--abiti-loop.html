@@ -15,7 +15,7 @@
                 <div class="grid-sizer"></div>
                 {% for item in collection %} {% if item.brand %}
                 <div class="grid-item {{item.brand}} card shadow">
-                    <a href="{{item.url}}"><img src="/uploads/{{collection}}/thumbs/{{item.brand}}/{{item.image}}" class="card-img-top" alt="{{item.title}}"></a>
+                    <a href="{{item.url}}"><img src="/uploads/{{page.collection}}/thumbs/{{item.brand}}/{{item.image}}" class="card-img-top" alt="{{item.title}}"></a>
                 </div>
                 {% endif %} {% endfor %}
             </div>

@@ -6,7 +6,9 @@
 
 <body>
     {% include header.html %}
-    <main role="main" class="container-fluid p-5">
+   
+    <main role="main" class="container-fluid p-3">
+            <section class="container text-center"><a href="/{{page.collection}}">Torna al Catalogo</a></section>
         <div class="row p-5">
             <div class="col-12 col-lg-2">
 
@@ -18,7 +20,7 @@
             </div>
             <div class="col-12 col-lg-7">
 
-                <img src="/uploads/2018/{{page.brand}}/big/{{page.image}}" alt="{{page.title}}" class="img-fluid shadow rounded mx-auto d-block">
+                <img src="/uploads/{{page.collection}}/big/{{page.brand}}/{{page.image}}" alt="{{page.title}}" class="img-fluid shadow rounded mx-auto d-block">
 
             </div>
             <aside class="col-12 col-lg-3 mt-3"> {% include vestito--abiti-loop.html %}
