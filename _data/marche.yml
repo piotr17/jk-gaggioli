@@ -2,9 +2,9 @@ marca1:
   type: sposo
   title: "Marca 1"
   logo: https://picsum.photos/200/300/?random
-sposo:
+classic-collection:
   type: sposo
-  title: "Classic"
+  title: "Classic Collection"
   logo: /assets/img/abiti-sposo/thumb-collection.jpg
 vivie:
   type: sposo
@@ -34,7 +34,7 @@ lubiam:
   type: sposo
   title: "Lubiam"
   logo: /assets/img/abiti-sposo/thumb-lubiam.jpg
-Scribano1966:
+scribano-1966:
   type: sposo
   title: "Scribano 1966"
   logo: /assets/img/abiti-sposo/scribano1966.jpg
@@ -56,12 +56,12 @@ polignano:
   logo: /assets/img/abiti-sposa/thumb-polignano.jpg
 joie-de-vivre:
   type: sposa
-  title: " joie-de-vivre"
+  title: "joie-de-vivre"
   logo: /assets/img/abiti-sposa/thumb-joie.jpg
 valentini-couture:
   type: sposa
-  title: "graziana-valentini"
-  logo: /assets/img/abiti-sposa/thumb-graziana-valentini.jpg
+  title: "Valentini Couture"
+  logo: /assets/img/abiti-sposa/valentinicouture.jpg
 jolies:
   type: sposa
   title: "jolies"
@@ -101,4 +101,4 @@ sonia-pena:
 dalin:
   type: sposa
   title: "Dalin"
-  logo: https://placehold.it/300x300
+  logo: /assets/img/abiti-sposa/dalin.jpg
