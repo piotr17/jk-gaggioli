@@ -1,9 +1,30 @@
 <div class="container">
     <div class="row">
+        <!-- create a checkout button -->
+        <a href="javascript:;" class="simpleCart_checkout">Invia la richiesta</a><br>
+        <a href="/{{page.collection}}">Torna al Catalogo</a>
+        <a class="item_add" href="javascript:;"> Add to Cart </a>
+        <!-- button to empty the cart -->
+        <a href="javascript:;" class="simpleCart_empty">Svuota Armadio</a><br>
         <div class="col-6 col-md-12 btn" data-toggle="modal" data-target="#prenotaModal">Prenota la Prova</div>
         <div class="col-6 col-md-12 btn"><a href="https://api.whatsapp.com/send?phone=whatsappphonenumber&text={{site.url}}{{page.url}}">Condividi</a></div>
     </div>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <!-- Modal -->
 <div class="modal fade" id="prenotaModal" tabindex="-1" role="dialog" aria-labelledby="prenotaProva" aria-hidden="true" netlify action="/grazie.html">
@@ -16,21 +37,21 @@
               </button>
             </div>
             <div class="modal-body">
-                <form data-parsley-validate id="parsley-form" netlify>
+                <form id="prenota-prova" netlify>
                     <div class="form-group">
                         <label for="EmailAddress">Indirizzo Email</label>
-                        <input type="email" class="form-control" id="EmailAddress" aria-describedby="emailHelp" placeholder="Enter email"> </div>
+                        <input type="email" name="email" class="form-control" id="EmailAddress" aria-describedby="emailHelp" placeholder="Enter email"> </div>
                     <div class="form-group">
                         <label for="NameLabel">Nome</label>
-                        <input required type="text" class="form-control" id="NameLabel" placeholder="Nome">
+                        <input required name="Nome" type="text" class="form-control" id="NameLabel" placeholder="Nome">
                     </div>
                     <div class="form-group">
                         <label for="SurnameLabel">Cognome</label>
-                        <input required type="text" class="form-control" id="SurnameLabel" placeholder="Cognome">
+                        <input required name="Cognome" type="text" class="form-control" id="SurnameLabel" placeholder="Cognome">
                     </div>
                     <div class="form-group">
                         <label for="PhoneLabel">Telefono</label>
-                        <input required type="number" data-parsley-type="integer" class="form-control" id="PhoneLabel" placeholder="Telefono">
+                        <input required name="Telefono" type="number" data-parsley-type="integer" class="form-control" id="PhoneLabel" placeholder="Telefono">
                     </div>
                     <div class="form-group">
                         <label for="Armadio">Armadio</label>
