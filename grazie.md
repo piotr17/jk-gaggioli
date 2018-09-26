@@ -3,4 +3,4 @@ title: Grazie
 layout: default
 ---
 
-Grazie per averci contattato. A breve un nostro operatore ti ricontatterà per l'appunamento.
+Grazie per averci contattato. A breve un nostro operatore ti ricontatterà per l'appuntamento.
