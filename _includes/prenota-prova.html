@@ -1,33 +1,12 @@
-<div class="container">
-    <div class="row">
-        <!-- create a checkout button -->
-        <a href="javascript:;" class="simpleCart_checkout">Invia la richiesta</a><br>
-        <a href="/{{page.collection}}">Torna al Catalogo</a>
-        <a class="item_add" href="javascript:;"> Add to Cart </a>
-        <!-- button to empty the cart -->
-        <a href="javascript:;" class="simpleCart_empty">Svuota Armadio</a><br>
-        <div class="col-6 col-md-12 btn" data-toggle="modal" data-target="#prenotaModal">Prenota la Prova</div>
-        <div class="col-6 col-md-12 btn"><a href="https://api.whatsapp.com/send?phone=whatsappphonenumber&text={{site.url}}{{page.url}}">Condividi</a></div>
-    </div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<nav class="nav flex-column">
+    <a class="nav-link" href="/{{page.collection}}">Torna al Catalogo</a>
+    <a class="nav-link item_add" href="javascript:;" data-toggle="modal" data-target="#addedModal">Aggiungi all'Armadio</a>
+    <a class="nav-link simpleCart_empty" href="javascript:;" data-toggle="modal" data-target="#emptyModal">Svuota Armadio</a>
+    <a class="nav-link" data-toggle="modal" data-target="#prenotaModal"><strong>Prenota la Prova</strong></a>
+</nav>
 
 <!-- Modal -->
-<div class="modal fade" id="prenotaModal" tabindex="-1" role="dialog" aria-labelledby="prenotaProva" aria-hidden="true" netlify action="/grazie.html">
+<div class="modal fade" id="prenotaModal" tabindex="-1" role="dialog" aria-labelledby="prenotaProva" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
@@ -37,7 +16,7 @@
               </button>
             </div>
             <div class="modal-body">
-                <form id="prenota-prova" netlify>
+                <form id="prenota-prova" netlify action="/grazie.html">
                     <div class="form-group">
                         <label for="EmailAddress">Indirizzo Email</label>
                         <input type="email" name="email" class="form-control" id="EmailAddress" aria-describedby="emailHelp" placeholder="Enter email"> </div>
@@ -55,13 +34,13 @@
                     </div>
                     <div class="form-group">
                         <label for="Armadio">Armadio</label>
-                        <div name="Armadio" id="Armadio" cols="30" rows="10" class="simpleCart_items">
-                        </div>
+                        <textarea name="Armadio" id="Armadio" cols="30" rows="10" class="simpleCart_items">
+                        </textarea>
 
                     </div>
                     <div class="form-group">
                         <label for="Data">Data preferita</label>
-                        <input required type="date" class="form-control" id="data" placeholder="Scegli una data">
+                        <input name="datapreferita" required type="date" class="form-control" id="data" placeholder="Scegli una data">
                     </div>
                     <div class="form-check">
                         <input required type="checkbox" class="form-check-input" id="privacyCheck">
@@ -71,5 +50,46 @@
                 </form>
             </div>
         </div>
+    </div>
+</div>
+
+<div class="modal fade" id="addedModal" tabindex="-1" role="dialog" aria-labelledby="addedModal" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Il tuo Armadio</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+            </div>
+            <div class="modal-body">
+                <table class="table simpleCart_items"></table>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Chiudi</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#prenotaModal">Prenota la prova</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="modal fade" id="emptyModal" tabindex="-1" role="dialog" aria-labelledby="emptyModal" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Il tuo Armadio</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+            </div>
+            <div class="modal-body">
+                L'armadio è vuoto.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Chiudi</button>
+            </div>
+        </div>
+
     </div>
 </div>
