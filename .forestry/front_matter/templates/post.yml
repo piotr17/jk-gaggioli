@@ -6,5 +6,3 @@ fields:
 - type: tag_list
   name: tags
   label: Tags
-pages:
-- _posts/notizia.md
