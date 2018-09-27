@@ -1,7 +1,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<meta name="description" content="{{page.description}}">
+<meta name="description" content="{{page.description}}, Abiti da Sposa e da Sposo {{page.brand}}">
 <meta name="author" content="{{site.author}}">
 <meta name="Copyright" content="Gaggioli Sposi" />
 <link type="text/plain" rel="author" href="humans.txt" />
@@ -13,17 +13,17 @@
 <meta property="og:url" content="{{page.url}}" />
 <meta property="og:type" content="article" />
 <meta property="og:title" content="{{ page.title }}" />
-<meta property="og:description" content="{{ page.description }}" /> {% assign pagecontent = {{content | strip_html}} %}
+<meta property="og:description" content="{{ page.description }}, Abiti da Sposa e da Sposo {{page.brand}}" /> {% assign pagecontent = {{content | strip_html}} %}
 <script type="application/ld+json">
     {
         "@context": "http://schema.org/",
         "@type": "article",
         "name": "{{ page.title }}",
         "articleBody": "{{pagecontent | strip_newlines}}",
-        "description": "{{page.description}}",
+        "description": "{{page.description}}, Abiti da Sposa e da Sposo {{page.brand}}",
         "author": "{{site.author}}",
         "datePublished": "{{page.date}}",
-        "headline": "{{page.description}}",
+        "headline": "{{page.description}}, Abiti da Sposa e da Sposo {{page.brand}}",
         "publisher": {
             "@type": "Organization",
             "name": "{{site.title}}",
