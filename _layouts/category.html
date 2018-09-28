@@ -7,7 +7,9 @@
 
 <body>
     {% include gtmbody.html %} {% include header.html %}
-
+    <header class="container-fluid p-4">
+        <h3>{{page.title}}</h3>
+    </header>
     <main class="container-fluid">
         {% include category--abiti-loop.html %}
     </main>

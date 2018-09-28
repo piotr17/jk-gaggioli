@@ -6,20 +6,22 @@
 <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
 <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
 <script src="/assets/js/vendor/simpleCart.min.js"></script>
-<script>simpleCart({
-    cartColumns: [
-        { attr: "name", label: "Abito: "},
-    ],
-    // "div" or "table" - builds the cart as a 
-    // table or collection of divs
-    cartStyle: "table", 
-    
-});
-simpleCart.bind( "afterAdd" , function(){
-    var updatedCart = $('table').text();
-    console.log(updatedCart);
-    $('textarea').val(updatedCart);
-});
+<script>
+    simpleCart({
+        cartColumns: [{
+            attr: "name",
+            label: "Abito: "
+        }, ],
+        // "div" or "table" - builds the cart as a 
+        // table or collection of divs
+        cartStyle: "table",
+
+    });
+    simpleCart.bind("afterAdd", function() {
+        var updatedCart = $('table').text();
+        console.log(updatedCart);
+        $('textarea').val(updatedCart);
+    });
 </script>
 <script>
     // init Isotope
@@ -28,7 +30,8 @@ simpleCart.bind( "afterAdd" , function(){
         percentPosition: true,
         packery: {
             // use element for option
-            columnWidth: '.grid-sizer'
+            columnWidth: '.grid-sizer',
+            fitWidth: true
         },
         sortBy: 'original-order'
     });

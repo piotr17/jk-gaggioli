@@ -2,6 +2,7 @@
 <section class="container-fluid">
     {% assign group = site[page.collection] | group_by : "brand" %}
     <div class="row">
+        {% if page.hideFilter == false %}
         <div class="col-4 col-lg-12">
             <div class="button-group filter-button-group">
                 <div class="d-flex flex-row align-items-center justify-content-center align-content-stretch flex-wrap">
@@ -10,8 +11,10 @@
                 </div>
             </div>
         </div>
+        {% endif %}
+
         <div class="col-8 col-lg-12">
-            <div class="grid">
+            <div class="grid justify-content-center">
                 <div class="grid-sizer"></div>
                 {% for item in collection %} {% if item.brand %}
                 <div class="grid-item {{item.brand}} card shadow">

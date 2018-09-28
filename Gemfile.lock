@@ -3,19 +3,12 @@ GEM
   specs:
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
-    autoprefixer-rails (8.5.0)
-      execjs
-    bootstrap (4.1.1)
-      autoprefixer-rails (>= 6.0.3)
-      popper_js (>= 1.12.9, < 2)
-      sass (>= 3.5.2)
     colorator (1.1.0)
     concurrent-ruby (1.0.5)
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     eventmachine (1.2.7-x64-mingw32)
-    execjs (2.7.0)
     ffi (1.9.23-x64-mingw32)
     forwardable-extended (2.6.0)
     http_parser.rb (0.6.0)
@@ -59,7 +52,6 @@ GEM
       jekyll-seo-tag (~> 2.1)
     pathutil (0.16.1)
       forwardable-extended (~> 2.6)
-    popper_js (1.12.9)
     public_suffix (3.0.2)
     rb-fsevent (0.10.3)
     rb-inotify (0.9.10)
@@ -83,10 +75,10 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
-  bootstrap (~> 4.1.0)
   jekyll (~> 3.8.1)
   jekyll-feed (~> 0.6)
   jekyll-menus
+  jekyll-seo-tag
   jekyll-sitemap
   minima (~> 2.0)
   tzinfo-data
