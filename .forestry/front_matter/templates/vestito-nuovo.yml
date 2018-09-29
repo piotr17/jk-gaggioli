@@ -1,0 +1,38 @@
+---
+label: Vestito Nuovo
+hide_body: false
+is_partial: false
+fields:
+- type: file
+  name: immagine_vestito
+  label: immagine vestito
+  description: 'Inserisci una immagine di max 1300px e con buona compressione jpeg '
+  config:
+    maxSize: '2'
+- type: number
+  name: ordine
+  label: Ordine
+  description: Inserisci l'ordine in cui deve apparire il vestito
+  config:
+    required: true
+- type: select
+  name: marca
+  config:
+    source:
+      type: datafiles
+      file: _data-marche-yml
+    required: true
+  label: Marca
+  description: La marca deve essere stata inserita preventivamente
+  default: marca1
+- type: text
+  name: layout
+  label: layout
+  hidden: true
+  config:
+    required: true
+  default: vestito-new
+- type: tag_list
+  name: caratteristiche_vestito
+  label: Caratteristiche vestito
+  description: Inserisci gli aggettivi adatti al vestito
