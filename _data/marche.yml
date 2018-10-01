@@ -77,7 +77,7 @@ martha-blanc:
 graziana-valentini:
   type: sposa
   title: "Graziana Valentini"
-  logo: /assets/img/abiti-sposa/thumb-valentini.jpg
+  logo: /assets/img/abiti-sposa/graziana.jpg
 jolie:
   type: sposa
   title: "jolie"
@@ -102,3 +102,19 @@ dalin:
   type: sposa
   title: "Dalin"
   logo: /assets/img/abiti-sposa/dalin.jpg
+dalia:
+  type: sposa
+  title: "Dalin"
+  logo: /assets/img/abiti-sposa/dalia.jpg
+galizia:
+  type: sposa
+  title: "Galizia"
+  logo: /assets/img/abiti-sposa/galizia.png
+magnani:
+  type: sposa
+  title: "Magnani"
+  logo: /assets/img/abiti-sposa/magnani.png
+vinni:
+  type: sposa
+  title: "Vinnì"
+  logo: /assets/img/abiti-sposa/vinni.jpg
