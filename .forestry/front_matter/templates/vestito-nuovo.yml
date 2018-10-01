@@ -36,3 +36,5 @@ fields:
   name: caratteristiche_vestito
   label: Caratteristiche vestito
   description: Inserisci gli aggettivi adatti al vestito
+pages:
+- _sposa/vin1556.md
