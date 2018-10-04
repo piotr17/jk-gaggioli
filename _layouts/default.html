@@ -7,10 +7,15 @@
 
 <body>
     {% include gtmbody.html %} {% include header.html %}
-    <main role="main" class="container">
-
-        {{content}}
-
+    <header class="container p-5">
+        <h3>{{page.title}}</h3>
+    </header>
+    <main role="main" class="container p-5">
+        <div class="row">
+            <div class="col align-self-center">
+                {{content}}
+            </div>
+        </div>
     </main>
     {% include footer.html %} {% include footer-scripts.html %} {% include contact-form.html %}
 </body>
