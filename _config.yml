@@ -35,7 +35,7 @@ lang: it_IT
 sass:
   sass_dir: _sass
   style: compressed
-include: ["_redirect"]
+include: ["_redirects"]
 
 profile: true
 collections:
