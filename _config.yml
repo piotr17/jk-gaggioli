@@ -18,7 +18,7 @@ author: Gaggioli Sposi
 email: info@gaggiolisposi.it
 description: Abiti da Sposa, Abiti da Sposo, Proposte per la Cerimonia >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: https://focused-wilson-dc7310.netlify.com # the base hostname & protocol for your site, e.g. http://example.com
+url: https://www.gaggiolisposi.it # the base hostname & protocol for your site, e.g. http://example.com
 logo: "/assets/img/logo-gaggioli-sposi-centrato.jpg"
 twitter_username: jekyllrb
 github_username: piotr17
