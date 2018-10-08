@@ -1,5 +1,6 @@
 # Redirects from what the browser requests to what we serve
-/home   /chi-siamo-abiti-da-sposa-viterbo-sposo-vestiti-cerimonia.asp
+/sposa   http://www.gaggiolisposi.it/abiti-sposa-sposo-viterbo.asp
+/   /chi-siamo-abiti-da-sposa-viterbo-sposo-vestiti-cerimonia.asp
 /sposo  http://www.gaggiolisposi.it/catalogo.asp?Marca=Sposo
 /sposo               http://www.gaggiolisposi.it/catalogo.asp?Marca=Petrelli
 /sposo            http://www.gaggiolisposi.it/catalogo.asp?Marca=Scribano1966
