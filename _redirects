@@ -20,13 +20,14 @@ catalogo.asp?Marca=Vivie    /sposa
 catalogo.asp?marca=Outlet%20Sposa /outlet-sposa
 catalogo.asp?marca=Outlet%20Sposo /outlet-sposo
 catalogo.asp?marca=Outlet%20Cerimonia /outlet-cerimonia
+www.gaggiolisposi.it/outlet-abiti-da-sposa-sposo-cerinomia.asp  /outlet-sposa
 accessori.asp /accessori
-blog-abiti-da-sposa-viterbo-sposo-vestiti-cerimonia.asp /blog
-punti-vendita-viterbo-acquapendente.asp /punti-vendita-viterbo-acquapendente.htm
-abiti-da-cerimonia.asp     /cerimonia   
-catalogo.asp?Marca=impero     /cerimonia   
-catalogo.asp?Marca=Sonia%20Pe%C3%B1a     /cerimonia   
-catalogo.asp?Marca=Le%20Damigelle%20di%20Caroline%20M     /cerimonia   
-catalogo.asp?Marca=maestri     /cerimonia
+blog-abiti-da-sposa-viterbo-sposo-vestiti-cerimonia.asp /blog 301
+punti-vendita-viterbo-acquapendente.asp /punti-vendita-viterbo-acquapendente.html 301
+abiti-da-cerimonia.asp     /cerimonia   301
+catalogo.asp?Marca=impero     /cerimonia   301
+catalogo.asp?Marca=Sonia%20Pe%C3%B1a     /cerimonia   301
+catalogo.asp?Marca=Le%20Damigelle%20di%20Caroline%20M     /cerimonia   301
+catalogo.asp?Marca=maestri     /cerimonia 301
 gaggioli-casa.asp /casa 301
 www.gaggiolisposi.it/blog-news-eventi.asp?* /blog 301    
