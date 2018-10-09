@@ -9,6 +9,7 @@ body {
     color: $color-primary-4;
     font-family: $font-stack-p;
     font-weight: 300;
+    padding-top: 100px;
 }
 
 .crop {
@@ -77,4 +78,12 @@ h6 {
 img.object-fit_cover {
     height: 10em;
     object-fit: cover
+}
+
+@media screen and (max-width: 375px) {
+    .navbar-brand {
+        img {
+            width: 250px;
+        }
+    }
 }

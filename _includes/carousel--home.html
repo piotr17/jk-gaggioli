@@ -7,7 +7,7 @@
     <div class="carousel-inner" role="listbox">
         <!-- Slide One - Set the background image for this slide in the line below -->
         {% assign count = 0 %} {% for image in gallery_files %} {% assign count = count | plus: 1 %}
-        <div class="carousel-item {% if count == 1 %} active {% endif %}" style="background-image: url('{{image}}')">
+        <div class="carousel-item {% if count == 1 %} active {% endif %}" style="background-image: url('{{image}}'); background-size: cover; background-position: left">
             <!--             <div class="carousel-caption d-none d-md-block">
                 <h1 class="display-1 mt-0">Title Test</h1>
                 <p>Caption Test</p>
