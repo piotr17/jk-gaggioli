@@ -6,8 +6,8 @@
         <div class="col-4 col-lg-12">
             <div class="button-group filter-button-group">
                 <div class="d-flex flex-row align-items-center justify-content-center align-content-stretch flex-wrap">
-                    <button class="btn col-xs-3" data-filter="*"><span class="isotope-all">Tutti</span></button> {% for item in group %} {% if item.name != empty %}
-                    <button class="btn btn-link btn-brand col-xs-3" data-filter=".{{item.name}}"><img src="{{site.data.marche[item.name].logo}}" width="100" class="img-thumbnail" alt="{{item.name}}"></button> {%endif%} {% endfor %}
+                    <button class="btn btn-link btn-brand col-xs-3" data-filter="*"><span class="isotope-all">Tutti</span></button> {% for item in group %} {% if item.name != empty %}
+                    <button class="btn btn-link btn-brand col-xs-3" data-filter=".{{item.name}}"><img src="{{site.data.marche[item.name].logo}}" width="100" class="img-fluid" alt="{{item.name}}"></button> {%endif%} {% endfor %}
                 </div>
             </div>
         </div>
