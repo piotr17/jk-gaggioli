@@ -10,7 +10,7 @@ Con cura e particolare dedizione abbiamo assistito spose e sposi nella scelta de
 
 Con competenza e professionalità abbiamo indicato loro tessuti, modelli, colori, accessori in grado di valorizzare la figura e rendere unici gli sposi nel giorno più bello.
 
-I nostri due punti vendita di **Viterbo** e Acquapendente sono oggi riconosciuti dalle future coppie di sposi come tappa obbligatoria per la scelta dei loro abiti.
+I nostri due punti vendita di [**Viterbo** ](https://www.gaggiolisposi.it/punti-vendita-viterbo-acquapendente.html "Abiti da Sposa Viterbo")e [**Acquapendente**](https://www.gaggiolisposi.it/punti-vendita-viterbo-acquapendente.html "Abiti da Sposa Acquapendente") sono oggi riconosciuti dalle future coppie di sposi come tappa obbligatoria per la scelta dei loro abiti.
 
 L'amore e la passione verso questo giorno così importante, ci vede protagonisti anche nel mondo della [Cerimonia](/cerimonia "Abiti da Cerimonia"), dedicato a genitori e parenti.
 
