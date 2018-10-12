@@ -1,8 +1,10 @@
 <!doctype html>
 <html lang="it">
+{% assign obj = site.data.marche[page.brand] %}
 
 <head>
     {% include head.html %}
+    <title>{{obj.title}} | {{page.title}}</title>
 </head>
 
 <body>
@@ -12,18 +14,20 @@
         <div class="row">
             <div class="col-12 col-lg-2 simpleCart_shelfItem text-center">
 
-                <div>{% assign obj = site.data.marche[page.brand] %} <img src="{{ obj.logo }}" alt=""><br>
-                    <small>Codice Abito: <span class="item_name">{{page.title}}</span></small>
+                <div class="p-1"><img src="{{ obj.logo }}" alt="{{obj.title}}">
+
                     <hr> {% include prenota-prova.html %}
                 </div>
 
             </div>
             <div class="col-12 col-lg-7">
 
-                <img src="/uploads/{{page.collection}}/big/{{page.brand}}/{{page.image}}" alt="{{page.title}}" class="img-fluid shadow rounded mx-auto d-block">
+                <img src="/uploads/{{page.collection}}/big/{{page.brand}}/{{page.image}}" alt="{{page.title}}" class="img-fluid shadow rounded mx-auto d-block"><br>
+                <p class="text-center"><small>Codice Abito: <span class="item_name">{{page.title}}</span></small></p>
 
             </div>
-            <aside class="col-12 col-lg-3 mt-4"> {% include vestito--abiti-loop.html %}
+            <aside class="col-12 col-lg-3 mt-4 text-center">
+                <h4> Le Proposte di <strong>{{obj.title}}</strong></h4> {% include vestito--abiti-loop.html %}
             </aside>
         </div>
     </main>
