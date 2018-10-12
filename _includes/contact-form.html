@@ -10,9 +10,7 @@
             </div>
             <div class="modal-body">
                 <form data-parsley-validate method="POST" netlify-honeypot="bot-field" id="parsley-form" netlify action="/grazie.html">
-                    <p class="invisible">
-                        <label>Non scrivere in questo campo: <input name="bot-field" /></label>
-                    </p>
+
                     <div class="form-group">
                         <label for="EmailAddress">Email
                             
@@ -24,13 +22,16 @@
                     </div>
                     <div class="form-group">
                         <label for="TextLabel">Messaggio</label>
-                        <textarea name="Messaggio" required rows="4" class="form-control" id="messaggio" placeholder="Messaggio">
+                        <textarea name="Messaggio" required rows="4" class="form-control" id="messaggio" placeholder="Messaggio"></textarea>
                     </div>
                     <div class="form-check">
                         <input required type="checkbox" class="form-check-input" id="privacyCheck">
                         <label class="form-check-label" for="privacyCheck">Accetto la privacy policy</label>
                     </div>
-                    <button type="submit" class="btn btn-lg btn-light float-right">Invia</button>
+                    <p class="invisible">
+                        <label>Non scrivere in questo campo: <input name="bot-field" /></label>
+                    </p>
+                    <button type="submit" class="btn btn-lg btn-dark float-right">Invia</button>
                 </form>
             </div>
         </div>

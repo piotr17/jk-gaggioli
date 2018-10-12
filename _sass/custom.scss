@@ -81,6 +81,17 @@ h6 {
     color: #4D4D4D;
 }
 
+.btn-floating {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    display: block;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 100%;
+}
+
 
 /* 3 columns by default */
 
