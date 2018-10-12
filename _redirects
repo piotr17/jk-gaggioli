@@ -1,27 +1,27 @@
 # Redirects from what the browser requests to what we serve
-abiti-sposa-sposo-viterbo.asp   /sposa
-/chi-siamo-abiti-da-sposa-viterbo-sposo-vestiti-cerimonia.asp /
-catalogo.asp?Marca=Sposo /sposo
-catalogo.asp?Marca=Petrelli    /sposo
-catalogo.asp?Marca=Scribano1966   /sposo
-catalogo.asp?Marca=Lubiam    /sposo
-catalogo.asp?Marca=Eg%C3%B2  /sposo
-catalogo.asp?Marca=Graziana%20Valentini    /sposa
-catalogo.asp?Marca=Jolies    /sposa
-catalogo.asp?Marca=Mori%20Lee    /sposa
-catalogo.asp?Marca=Rosa%20Clar%C3%A0    /sposa
-catalogo.asp?Marca=Valentini    /sposa
-catalogo.asp?Marca=Inmaculada%20Garcia    /sposa
-catalogo.asp?Marca=Elisabetta%20Polignano    /sposa
-catalogo.asp?Marca=Rembo%20Styling    /sposa
-catalogo.asp?Marca=Gaggioli%20Sposi    /sposa
-catalogo.asp?Marca=Martha%20Blanc    /sposa
-catalogo.asp?Marca=Vivie    /sposa
-catalogo.asp?marca=Outlet%20Sposa /outlet-sposa
-catalogo.asp?marca=Outlet%20Sposo /outlet-sposo
-catalogo.asp?marca=Outlet%20Cerimonia /outlet-cerimonia
-www.gaggiolisposi.it/outlet-abiti-da-sposa-sposo-cerinomia.asp  /outlet-sposa
-accessori.asp /accessori
+abiti-sposa-sposo-viterbo.asp   /sposa  301
+/chi-siamo-abiti-da-sposa-viterbo-sposo-vestiti-cerimonia.asp /  301
+catalogo.asp?Marca=Sposo /sposo 301
+catalogo.asp?Marca=Petrelli    /sposo 301
+catalogo.asp?Marca=Scribano1966   /sposo 301
+catalogo.asp?Marca=Lubiam    /sposo 301
+catalogo.asp?Marca=Eg%C3%B2  /sposo 301
+catalogo.asp?Marca=Graziana%20Valentini    /sposa 301
+catalogo.asp?Marca=Jolies    /sposa 301
+catalogo.asp?Marca=Mori%20Lee    /sposa 301
+catalogo.asp?Marca=Rosa%20Clar%C3%A0    /sposa 301
+catalogo.asp?Marca=Valentini    /sposa 301
+catalogo.asp?Marca=Inmaculada%20Garcia    /sposa 301
+catalogo.asp?Marca=Elisabetta%20Polignano    /sposa 301
+catalogo.asp?Marca=Rembo%20Styling    /sposa 301
+catalogo.asp?Marca=Gaggioli%20Sposi    /sposa 301
+catalogo.asp?Marca=Martha%20Blanc    /sposa 301
+catalogo.asp?Marca=Vivie    /sposa 301
+catalogo.asp?marca=Outlet%20Sposa /outlet-sposa 301
+catalogo.asp?marca=Outlet%20Sposo /outlet-sposo 301
+catalogo.asp?marca=Outlet%20Cerimonia /outlet-cerimonia 301
+www.gaggiolisposi.it/outlet-abiti-da-sposa-sposo-cerinomia.asp  /outlet-sposa 301
+accessori.asp /accessori 301
 blog-abiti-da-sposa-viterbo-sposo-vestiti-cerimonia.asp /blog 301
 punti-vendita-viterbo-acquapendente.asp /punti-vendita-viterbo-acquapendente.html 301
 abiti-da-cerimonia.asp     /cerimonia   301
@@ -30,4 +30,5 @@ catalogo.asp?Marca=Sonia%20Pe%C3%B1a     /cerimonia   301
 catalogo.asp?Marca=Le%20Damigelle%20di%20Caroline%20M     /cerimonia   301
 catalogo.asp?Marca=maestri     /cerimonia 301
 gaggioli-casa.asp /casa 301
-www.gaggiolisposi.it/blog-news-eventi.asp?* /blog 301    
+www.gaggiolisposi.it/blog-news-eventi.asp?* /blog 301
+https://www.gaggiolisposi.it/abiti-sposa-viterbo.asp /sposa 301
