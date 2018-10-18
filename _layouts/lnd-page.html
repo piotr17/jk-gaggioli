@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="it">
+
+<head>
+    {% include head.html %} {% include footer-scripts.html %}
+</head>
+
+<body>
+    {% include gtmbody.html %} {% include header.html %}
+    <main class="content-include">{{content}}</main>
+    <section>
+        {% include contact-form.html %}
+    </section>
+    {% include footer.html %}
+</body>
+
+</html>

@@ -10,11 +10,12 @@
                     <button class="btn btn-link btn-brand col-xs-3" data-filter=".{{item.name}}"><img itemprop="logo" src="{{site.data.marche[item.name].logo}}" width="100" class="img-fluid" alt="{{item.name}}"></button> {%endif%} {% endfor %}
                 </div>
             </div>
+            <div class="text-center"><small>Clicca sulle marche</small></div>
         </div>
         {% endif %}
 
         <div class="col-8 col-lg-12">
-            <div class="grid justify-content-center">
+            <div class="grid">
                 <div class="grid-sizer"></div>
                 {% for item in collection %} {% if item.brand %}
                 <div class="grid-item {{item.brand}} card shadow">
