@@ -1,2 +1,5 @@
-{% seo %}
 <meta name="google-site-verification" content="ooEnFbyRFkfDOj7UvLgJMlyw5acfPCjQnPHdmo57zLg" />
+<title>
+    {%if page.brand %} {{page.brand}} | {{ site.title }} | {{ page.title }} {% else %} {{ site.title }} {% endif %}
+</title>
+<meta itemprop="description" name="description" content="{% if page.brand %} Abiti {{page.brand}} | Prenota la Prova e Realizza il tuo Sogno {% else %}{{ site.description | truncate: 160  }}{% endif %}" /> {% seo %}
