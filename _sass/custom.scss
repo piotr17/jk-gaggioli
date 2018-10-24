@@ -13,7 +13,7 @@ body {
     color: $color-primary-4;
     font-family: $font-stack-p;
     font-weight: 300;
-    padding-top: 113px;
+    padding-top: 12vh;
 }
 
 .crop {
@@ -31,6 +31,7 @@ a {
     a.nav-link {
         color: #FFFFFF;
     }
+    min-height:12vh;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -64,6 +65,39 @@ h5,
 h6 {
     font-family: $font-stack-h;
     color: $color-secondary-1-4;
+}
+
+header.home-layout {
+    position: relative;
+    background-color: black;
+    height: 89vh;
+    min-height: 25rem;
+    width: 100%;
+    z-index: 2;
+    overflow: hidden;
+}
+
+header video,
+header iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+}
+
+header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
 }
 
 .card-img-crop {

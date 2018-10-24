@@ -8,10 +8,11 @@
         <!-- Slide One - Set the background image for this slide in the line below -->
         {% assign count = 0 %} {% for image in gallery_files %} {% assign count = count | plus: 1 %}
         <div class="carousel-item {% if count == 1 %} active {% endif %}" style="background-image: url('{{image}}'); background-size: cover; background-position: left">
-            <!--             <div class="carousel-caption d-none d-md-block">
-                <h1 class="display-1 mt-0">Title Test</h1>
-                <p>Caption Test</p>
-            </div> -->
+            <div class="carousel-caption d-none d-md-block">
+                <h3 class="text-white">Abiti da Sposa, Sposo e Cerimonia <br> Viterbo / Acquapendente</h3>
+                <p class="lead text-white"> <em>‘Abbiamo scelto il meglio perché siamo convinti che ognuno di voi meriti il
+                    meglio’</em></p>
+            </div>
 
         </div>{%endfor%}
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
