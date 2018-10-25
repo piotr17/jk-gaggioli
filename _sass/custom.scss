@@ -106,6 +106,13 @@ header .overlay {
     overflow: hidden;
 }
 
+.post-crop {
+    height: 10em;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: top;
+}
+
 .grid:after {
     content: '';
     display: block;
@@ -119,6 +126,11 @@ header .overlay {
 
 .grid-item {
     float: left;
+}
+
+.grid-item-post,
+.grid-sizer-post {
+    width: 25%;
 }
 
 .isotope-all {
@@ -148,6 +160,11 @@ header .overlay {
     display: block;
     border-radius: 100%;
     background-color: #DDDDDD;
+}
+
+.post-image {
+    width: 10em;
+    height: auto;
 }
 
 

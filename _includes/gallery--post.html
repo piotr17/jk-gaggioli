@@ -1,1 +1,11 @@
-something
+<div class="d-flex flex-column justify-content-between p-1">
+    <h5 class="text-secondary">Sfoglia le immagini</h5>
+    {%- for img in page.immagini -%}
+
+    <a class="image-link" href="{{img}}" data-lightbox="set"><img class="post-image rounded" src="{{img}}" alt="" /></a>
+
+    {%- endfor -%}
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/js/lightbox-plus-jquery.min.js"></script>
+</div>

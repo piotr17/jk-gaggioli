@@ -1,6 +1,7 @@
 ---
 title: Il nuovo portale è online!
 image: https://placehold.it/400x200
+immagini: []
 layout: post
 ---
 
