@@ -6,5 +6,9 @@ fields:
 - type: tag_list
   name: tags
   label: Tags
+- type: text
+  name: layout
+  label: layout
+  default: post
 pages:
 - _posts/2018-10-25-nuovi-arrivi.md
