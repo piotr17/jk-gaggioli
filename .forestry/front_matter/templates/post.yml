@@ -10,5 +10,9 @@ fields:
   name: layout
   label: layout
   default: post
+- type: image_gallery
+  name: immagini
+  label: immagini
+  description: Inserire le immagini, appariranno come una gallery
 pages:
 - _posts/2018-10-25-nuovi-arrivi.md
