@@ -11,7 +11,9 @@
         <h3>{{page.title}}</h3>
         {{ content }} {% for tag in page.tags %} tag {% endfor %}
     </main>
-
+    <section class="container">
+        {%- include gallery--post.html -%}
+    </section>
     {% include footer.html %} {% include footer-scripts.html %}
 </body>
 
