@@ -1,4 +1,4 @@
 ---
 layout: home
-gallery: ["/assets/img/background-web-site-h669-2016.jpg"]
+gallery: ["/uploads/lnd/images-0.jpg", "/uploads/lnd/images-1.jpg", "/uploads/lnd/images-2.jpg"]
 ---
