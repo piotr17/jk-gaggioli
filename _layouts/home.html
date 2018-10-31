@@ -14,17 +14,20 @@
     </header>
 
     <!-- ACCESSO CATALOGHI -->
-    <section>
+    <section class="container-fluid">
+
         <div class="d-flex  flex-column flex-md-row  justify-content-center align-items-stretch my-3">
+
             <a href="/sposa"><img class="img-fluid" src="/assets/img/img-collezione-sposa2016.jpg"></a>
             <a href="/sposo"><img class="img-fluid" src="/assets/img/img-collezione-sposo2016.jpg"></a>
         </div>
     </section>
     <!-- BLOCCHI -->
     <section class="container-fluid p-5" id="home-cards">
+
         <div class="container">
-            <div class="row">
-                <div class="col-md-6">
+            <div class="row align-items-stretch">
+                <div class="col">
                     <div class="card p-2">
                         <a href="/outlet-sposo"><img class="card-img-top" src="/assets/img/outlet.jpg" class="img-fluid"></a>
                         <div class="card-body">
@@ -33,13 +36,18 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col">
                     <div class="card p-2">
                         <a href="/outlet-sposa"><img class="card-img-top" src="/assets/img/blocco01.jpg" class="img-fluid"></a>
                         <div class="card-body">
                             <h5 class="card-subtitle mb-2 text-muted">Abiti da Cerimonia</h5>
                             <p class="card-text">Visita il punto vendita di Acquapendente</p>
                         </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card p-2">
+                        {%- include fb-page.html -%}
                     </div>
                 </div>
             </div>
