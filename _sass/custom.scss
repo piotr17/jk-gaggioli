@@ -1,10 +1,15 @@
-@import 'palette';
-@import 'slider';
-@import 'jekyll-layouts-includes';
 @import url('https://fonts.googleapis.com/css?family=Comfortaa|Rufina|Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 $font-stack-h:'Comfortaa';
 $font-stack-p:'Poppins',
 sans-serif;
+@import 'palette';
+@import 'slider';
+@import 'jekyll-layouts-includes';
+@import 'media';
+@import 'bootstrap-overrides';
+
+/**BASIC OVERRIDES**/
+
 html {
     overflow-y: scroll;
 }
@@ -26,17 +31,8 @@ a {
     color: $color-secondary-2-0;
 }
 
-.navbar {
-    font-family: $font-stack-h;
-    a.nav-link {
-        color: #FFFFFF;
-    }
-    min-height:12vh;
-}
 
-.navbar-dark .navbar-nav .nav-link {
-    color: #FFFFFF;
-}
+/***/
 
 .footer {
     background-color: $color-secondary-1-0;
@@ -142,26 +138,6 @@ header .overlay {
     color: #4D4D4D;
 }
 
-.btn-floating {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    z-index: 999;
-    display: block;
-    border-radius: 100%;
-    background-color: #DDDDDD;
-}
-
-.btn-floating-1 {
-    position: fixed;
-    bottom: 78px;
-    right: 20px;
-    z-index: 999;
-    display: block;
-    border-radius: 100%;
-    background-color: #DDDDDD;
-}
-
 .post-image {
     width: 10em;
     height: auto;
@@ -173,40 +149,4 @@ header .overlay {
 img.object-fit_cover {
     height: 10em;
     object-fit: cover
-}
-
-@media screen and (max-width: 991px) {
-    .grid-item,
-    .grid-sizer {
-        width: 50%;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .cc-banner .cc-message {
-        height: 20px;
-    }
-    .grid-item,
-    .grid-sizer {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 375px) {
-    .grid-item,
-    .grid-sizer {
-        width: 100%;
-    }
-    .navbar-brand {
-        img {
-            width: 230px;
-        }
-    }
-    body {
-        padding-top: 3.6em;
-    }
-    .isotope-all {
-        padding: 4vw 3vw;
-        font-size: 3vw;
-    }
 }

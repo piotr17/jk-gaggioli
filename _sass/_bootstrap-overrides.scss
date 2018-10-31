@@ -1,0 +1,35 @@
+.navbar {
+    font-family: $font-stack-h;
+    a.nav-link {
+        color: #FFFFFF;
+    }
+    min-height:12vh;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #FFFFFF;
+}
+
+.btn-floating {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    display: block;
+    border-radius: 100%;
+    background-color: #DDDDDD;
+}
+
+.btn-floating-1 {
+    position: fixed;
+    bottom: 78px;
+    right: 20px;
+    z-index: 999;
+    display: block;
+    border-radius: 100%;
+    background-color: #DDDDDD;
+}
+
+.carousel-item {
+    background-position-y: top!important;
+}
