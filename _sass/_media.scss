@@ -6,9 +6,9 @@
 }
 
 @media screen and (max-width: 600px) {
-    .cc-banner .cc-message {
-        height: 20px;
-    }
+    #cookieconsent{
+        font-size:10px;
+}
     .grid-item,
     .grid-sizer {
         width: 100%;
