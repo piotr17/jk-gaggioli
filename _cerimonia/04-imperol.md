@@ -1,6 +1,7 @@
 ---
 title: 04-imperol
-image: 04-imperol.png
+image: ''
 brand: impero
 layout: vestito
+
 ---
