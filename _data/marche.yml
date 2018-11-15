@@ -24,7 +24,7 @@ rosa-clara:
   logo: /assets/img/abiti-sposa/thumb-rosa-clara.jpg
 mori-lee:
   type: sposo
-  title: "mori-lee"
+  title: "Mori Lee"
   logo: /assets/img/abiti-sposa/thumb-mori-lee.jpg
 petrelli:
   type: sposo
@@ -34,7 +34,7 @@ lubiam:
   type: sposo
   title: "Lubiam"
   logo: /assets/img/abiti-sposo/thumb-lubiam.jpg
-scribano-1966:
+scribano:
   type: sposo
   title: "Scribano 1966"
   logo: /assets/img/abiti-sposo/scribano1966.jpg
@@ -46,10 +46,6 @@ rembo-styling:
   type: sposa
   title: "Rembo Styling"
   logo: /assets/img/abiti-sposa/thumb-rembo-styling.jpg
-scribano:
-  type: sposa
-  title: "scribano"
-  logo: /assets/img/abiti-sposa/thumb-scribano.jpg
 polignano:
   type: sposa
   title: "Elisabetta Polignano"
@@ -68,7 +64,7 @@ jolies:
   logo: /assets/img/abiti-sposa/thumb-jolies.jpg
 gaggioli-sposi:
   type: sposa
-  title: "Scribano"
+  title: "Gaggioli Sposi"
   logo: /assets/img/abiti-sposa/thumb-gaggioli-sposi.jpg
 martha-blanc:
   type: sposa
