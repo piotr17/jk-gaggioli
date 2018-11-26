@@ -46,6 +46,8 @@ collections:
     output: true
   accessori:
     output: true
+  marche:
+    output: true
   outlet-sposa:
     output: true
   outlet-sposo:

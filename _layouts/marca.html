@@ -6,12 +6,43 @@
 </head>
 
 <body>
-    {% include gtmbody.html %}
-    <!-- MENU -->
-    {% include header.html %}
-    <main>{% assign marca = page.collection.marca1 %} {{marca}} {% for item in marca %}{{item}} {% endfor %}
-
-    </main> {% include nanogallery.html %} {% include footer.html %} {% include footer-scripts.html %}
+    {% include gtmbody.html %} {% include header.html %}
+    {% assign brand = page.title | downcase %}
+    <header class="container-fluid p-4">
+            <div class="row">
+                    <div class="col"><img src="{{site.data.marche[brand].logo}}" alt=""></div>
+                    <div class="col"><p>{{content}}</p></div>
+                </div>
+    </header>
+    <main class="container-fluid">
+        {% include category--marche-loop.html %}
+    </main>
+    {% include footer.html %} {% include footer-scripts.html %}
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script src="//npmcdn.com/isotope-packery@2/packery-mode.pkgd.js"></script>
+    <script>
+        // init Isotope
+        var $grid = $('.grid').isotope({
+            layoutMode: 'packery',
+            itemSelector: '.grid-item',
+            percentPosition: true,
+            packery: {
+                columnWidth: '.grid-sizer'
+            },
+            sortBy: 'original-order'
+        });
+        // filter items on button click
+        $('.filter-button-group').on('click', 'button', function() {
+            var filterValue = $(this).attr('data-filter');
+            $grid.isotope({
+                filter: filterValue
+            });
+        });
+        $grid.imagesLoaded().progress(function() {
+            $grid.isotope('layout');
+        });
+    </script> {% include contact-form.html %}
 
 </body>
 

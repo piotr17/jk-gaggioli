@@ -3,46 +3,4 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
-<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
-<script src="//npmcdn.com/isotope-packery@2/packery-mode.pkgd.js"></script>
-<script src="/assets/js/vendor/simpleCart.min.js"></script>
-<script>
-    simpleCart({
-        cartColumns: [{
-            attr: "name",
-            label: "Abito: "
-        }, ],
-        // "div" or "table" - builds the cart as a 
-        // table or collection of divs
-        cartStyle: "table",
 
-    });
-    simpleCart.bind("afterAdd", function() {
-        var updatedCart = $('table').text();
-        console.log(updatedCart);
-        $('textarea').val(updatedCart);
-    });
-</script>
-<script>
-    // init Isotope
-    var $grid = $('.grid').isotope({
-        layoutMode: 'packery',
-        itemSelector: '.grid-item',
-        percentPosition: true,
-        packery: {
-            columnWidth: '.grid-sizer'
-        },
-        sortBy: 'original-order'
-    });
-    // filter items on button click
-    $('.filter-button-group').on('click', 'button', function() {
-        var filterValue = $(this).attr('data-filter');
-        $grid.isotope({
-            filter: filterValue
-        });
-    });
-    $grid.imagesLoaded().progress(function() {
-        $grid.isotope('layout');
-    });
-</script>
