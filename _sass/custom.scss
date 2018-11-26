@@ -50,6 +50,11 @@ a {
     }
 }
 
+.hero {
+    position: absolute;
+    z-index: 2;
+}
+
 
 /* Typo */
 
@@ -159,9 +164,9 @@ img.object-fit_cover {
 }
 
 @media screen and (max-width: 600px) {
-    #cookieconsent{
-        font-size:10px;
-}
+    #cookieconsent {
+        font-size: 10px;
+    }
     .grid-item,
     .grid-sizer {
         width: 100%;
