@@ -1,19 +1,8 @@
 
 
-<section class="container-fluid">
 
-    
-    {% assign collection = site[page.type] | where : "brand",brand %}
-
-    <div class="grid">
-            <div class="grid-sizer"></div>
+   {% assign collection = site[page.type] | where : "brand",brand %}
             {%- for item in collection -%}
-    
-            <div class="grid-item card shadow">
                 <a href="{{item.url}}"><img src="/uploads/{{page.type}}/thumbs/{{brand}}/{{item.image}}" alt="" />
                 </a>
-    
-            {%- endfor -%}
-        </div>
-    
-</section>
+               {%- endfor -%}

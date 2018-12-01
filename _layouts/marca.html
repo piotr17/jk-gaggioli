@@ -7,7 +7,7 @@
 
 <body>
     {% include gtmbody.html %} {% include header.html %}
-    {% assign brand = page.title | downcase %}
+    {% assign brand = page.title | slugify %}
     <header class="container-fluid p-4">
             <div class="row">
                     <div class="col"><img src="{{site.data.marche[brand].logo}}" alt=""></div>
@@ -15,34 +15,50 @@
                 </div>
     </header>
     <main class="container-fluid">
-        {% include category--marche-loop.html %}
+        <div class="row">
+            <div class="col-lg-12">
+                    <div class="grid">
+                        <div class="grid-sizer"></div>
+                        {% assign collection = site[page.type] | where : "brand",brand %}
+                        {%- for item in collection -%}
+                        <div class="grid-item">
+                            <a href="{{item.url}}"><img src="/uploads/{{page.type}}/thumbs/{{brand}}/{{item.image}}" class="card-img-crop" alt="" />
+                            </a>
+                        </div>
+                           {%- endfor -%}
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </main>
+  
     {% include footer.html %} {% include footer-scripts.html %}
     <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
-    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
-    <script src="//npmcdn.com/isotope-packery@2/packery-mode.pkgd.js"></script>
-    <script>
-        // init Isotope
-        var $grid = $('.grid').isotope({
-            layoutMode: 'packery',
-            itemSelector: '.grid-item',
-            percentPosition: true,
-            packery: {
-                columnWidth: '.grid-sizer'
-            },
-            sortBy: 'original-order'
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+<script src="//npmcdn.com/isotope-packery@2/packery-mode.pkgd.js"></script>
+<script>
+    // init Isotope
+    var $grid = $('.grid').isotope({
+        layoutMode: 'packery',
+        itemSelector: '.grid-item',
+        percentPosition: true,
+        packery: {
+            columnWidth: '.grid-sizer'
+        },
+        sortBy: 'original-order'
+    });
+    // filter items on button click
+    $('.filter-button-group').on('click', 'button', function() {
+        var filterValue = $(this).attr('data-filter');
+        $grid.isotope({
+            filter: filterValue
         });
-        // filter items on button click
-        $('.filter-button-group').on('click', 'button', function() {
-            var filterValue = $(this).attr('data-filter');
-            $grid.isotope({
-                filter: filterValue
-            });
-        });
-        $grid.imagesLoaded().progress(function() {
-            $grid.isotope('layout');
-        });
-    </script> {% include contact-form.html %}
+    });
+    $grid.imagesLoaded().progress(function() {
+        $grid.isotope('layout');
+    });
+</script> {% include contact-form.html %}
 
 </body>
 
