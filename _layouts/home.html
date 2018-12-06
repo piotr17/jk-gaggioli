@@ -14,19 +14,34 @@
     </header>
 
     <!-- ACCESSO CATALOGHI -->
-    <section class="container">
+    <div class="container-fluid grey_bg">
+        <section class="container p-4">
 
-        <div class="row mt-3 mb-3">
+            <div class="row">
+
+                <div class="col">
+                    {%- include matrimonio-rec.html -%}
+                </div>
+            </div>
+        </section>
+    </div>
+    <section class="container mt-3">
+        <div class="row">
             <div class="col">
                 {%- include fb-page.html -%}
             </div>
             <div class="col">
                 <div class="card p-2">
-                    <a href="/outlet-sposo"><img class="card-img-top" src="/assets/img/outlet.jpg" class="img-fluid"></a>
-                    <div class="card-body">
-                        <h5 class="card-subtitle mb-2 text-muted">Outlet di qualità</h5>
-                        <p class="card-text">Visita il punto vendita di Acquapendente</p>
-                    </div>
+                    <a href="https://outlet.gaggiolisposi.it/?utm_source=viterbo"><img class="card-img-top" src="/assets/img/outlet.jpg" class="img-fluid"></a>
+                    <a href="https://outlet.gaggiolisposi.it/?utm_source=viterbo">
+                        <div class="media p-3">
+                            <img class="align-self-center mr-3" width="80" src="/assets/img/outlet/g.png" alt="Sposa Outlet">
+                            <div class="media-body">
+                                <h5 class="mt-0">Visita il nostro Outlet di Qualità</h5>
+                                <p class="mb-0">Acquapendente</p>
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>

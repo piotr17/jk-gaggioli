@@ -10,6 +10,10 @@ sans-serif;
 
 /**BASIC OVERRIDES**/
 
+.grey_bg {
+    background-color: rgb(179, 179, 179);
+}
+
 html {
     overflow-y: scroll;
 }
@@ -154,6 +158,12 @@ header .overlay {
 img.object-fit_cover {
     height: 10em;
     object-fit: cover
+}
+
+#bodasnet-widget-content {
+    h3 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif!important
+    }
 }
 
 @media screen and (max-width: 991px) {
