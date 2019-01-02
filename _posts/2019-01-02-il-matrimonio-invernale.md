@@ -2,6 +2,7 @@
 tags: []
 layout: Il matrimonio Invernale
 immagini:
+- "/uploads/images.jpg"
 - "/uploads/14-PENELOPE- DAL1570.jpg"
 - "/uploads/13- L 388-MAGN1595.jpg"
 - "/uploads/36-AMERICA-ROS1516.jpg"
