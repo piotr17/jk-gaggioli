@@ -12,31 +12,8 @@
     <header class="home-layout d-xs-none d-sm-block">
         {% include carousel--home.html %}
     </header>
-    <section class="container p-5">
-        <div class="row">
-            <div class="col">
-                <div class="d-flex align-items-center justify-content-around">
-                    <img src="/assets/img/christmas_A-512.png" height="80" alt="">
-                    <p class="lead text-center"><span class="display-3 text-danger">Festività Natalizie</span><br> <span class="display-4">Saremo chiusi dal <span class="text-warning">23 DICEMBRE AL 1 GENNAIO </span>COMPRESI</span>
-                    </p>
-                    <img src="/assets/img/christmas_A-512.png" height="80" alt="">
-                </div>
-            </div>
-        </div>
-    </section>
     <!-- ACCESSO CATALOGHI -->
-    <div class="container-fluid grey_bg">
-        <section class="container p-4">
-
-            <div class="row">
-
-                <div class="col">
-                    {%- include matrimonio-rec.html -%}
-                </div>
-            </div>
-        </section>
-    </div>
-    <section class="container mt-3">
+    <section class="container mt-3 mb-3">
         <div class="row">
             <div class="col">
                 {%- include fb-page.html -%}
@@ -57,6 +34,17 @@
             </div>
         </div>
     </section>
+    <div class="container-fluid grey_bg">
+        <section class="container p-4">
+
+            <div class="row">
+
+                <div class="col">
+                    {%- include matrimonio-rec.html -%}
+                </div>
+            </div>
+        </section>
+    </div>
     <!-- SOCIAL -->
     <section class="container d-flex flex-row justify-content-center p-5">
         {%- include social-bar.html -%}
