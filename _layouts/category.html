@@ -1,4 +1,4 @@
-<!doctype html>
+{%- include fb-chat.html -%} {% include nav.html %}
 <html lang="it">
 
 <head>
@@ -6,6 +6,7 @@
 </head>
 
 <body>
+
     {% include gtmbody.html %} {% include header.html %}
     <header class="container-fluid p-4">
         <h3>{{page.title}}</h3>
@@ -15,30 +16,30 @@
     </main>
     {% include footer.html %} {% include footer-scripts.html %} {% include contact-form.html %}
     <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
-<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
-<script src="//npmcdn.com/isotope-packery@2/packery-mode.pkgd.js"></script>
-<script>
-    // init Isotope
-    var $grid = $('.grid').isotope({
-        layoutMode: 'packery',
-        itemSelector: '.grid-item',
-        percentPosition: true,
-        packery: {
-            columnWidth: '.grid-sizer'
-        },
-        sortBy: 'original-order'
-    });
-    // filter items on button click
-    $('.filter-button-group').on('click', 'button', function() {
-        var filterValue = $(this).attr('data-filter');
-        $grid.isotope({
-            filter: filterValue
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script src="//npmcdn.com/isotope-packery@2/packery-mode.pkgd.js"></script>
+    <script>
+        // init Isotope
+        var $grid = $('.grid').isotope({
+            layoutMode: 'packery',
+            itemSelector: '.grid-item',
+            percentPosition: true,
+            packery: {
+                columnWidth: '.grid-sizer'
+            },
+            sortBy: 'original-order'
         });
-    });
-    $grid.imagesLoaded().progress(function() {
-        $grid.isotope('layout');
-    });
-</script>
+        // filter items on button click
+        $('.filter-button-group').on('click', 'button', function() {
+            var filterValue = $(this).attr('data-filter');
+            $grid.isotope({
+                filter: filterValue
+            });
+        });
+        $grid.imagesLoaded().progress(function() {
+            $grid.isotope('layout');
+        });
+    </script>
 </body>
 
 </html>
