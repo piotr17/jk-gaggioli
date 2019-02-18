@@ -13,21 +13,22 @@
 .btn-floating {
     position: fixed;
     bottom: 20px;
-    right: 20px;
+    left: 20px;
     z-index: 999;
     display: block;
     border-radius: 100%;
-    background-color: #DDDDDD;
+    background-color: rgb(30, 153, 57);
 }
 
 .btn-floating-1 {
+    color: #FFFFFF;
     position: fixed;
-    bottom: 78px;
-    right: 20px;
+    bottom: 10px;
+    left: 20px;
     z-index: 999;
     display: block;
     border-radius: 100%;
-    background-color: #DDDDDD;
+    background-color: rgb(30, 153, 57);
 }
 
 .carousel-item {
