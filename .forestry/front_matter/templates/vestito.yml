@@ -17,11 +17,14 @@ fields:
   label: layout
   description: Layout della pagina
   default: vestito
+  hidden: true
 - type: select
-  name: marca
+  name: brand
   config:
     source:
-      type: datafiles
-      file: _data-marche-yml
+      type: documents
+      file: _data/marche.yml
+      section: data
     required: true
   label: Marca
+  description: Inserisci la marca del vestito
