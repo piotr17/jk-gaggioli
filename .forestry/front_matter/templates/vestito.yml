@@ -30,3 +30,4 @@ fields:
   description: Inserisci la marca del vestito
 pages:
 - _cerimonia/01-impero-1218.md
+- _accessori/test.md
