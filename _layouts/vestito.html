@@ -8,14 +8,14 @@
 </head>
 
 <body>
-        
+
     {% include header.html %}
 
     <main role="main" class="container-fluid p-3 mt-4">
         <div class="row">
             <div class="col-12 col-lg-2 simpleCart_shelfItem text-center">
-                    <span class="item_name d-none">{{page.title}}</span>
-                <div class="p-1"><img src="{{ obj.logo }}" alt="{{obj.title}}" class="img-fluid">
+                <span class="item_name d-none">{{page.title}}</span>
+                <div class="p-1"><img src="{{ obj.logo }}" alt="{{obj.title}}">
 
                     <hr> {% include prenota-prova.html %}
                 </div>
@@ -23,7 +23,7 @@
             </div>
             <div class="col-12 col-lg-7" itemscope itemtype="http://schema.org/Product">
 
-                <img itemprop="image" src="/uploads/{{page.collection}}/big/{{page.brand}}/{{page.image}}" alt="{{obj.title}}" class="img-fluid shadow rounded mx-auto d-block"><br>
+                <img itemprop="image" src="https://res.cloudinary.com/dtd4duitw/image/upload/c_scale,q_auto:good,w_1200/v1543919832/viterbo/{{page.image}}" alt="{{obj.title}}" class="img-fluid shadow rounded mx-auto d-block"><br>
                 <p itemprop="name" class="text-center"><small>Codice Abito: <span>{{page.title}}</span></small></p>
             </div>
             <aside class="col-12 col-lg-3 mt-4 text-center">
@@ -33,28 +33,27 @@
     </main>
 
     <section>
-        {% include contact-form.html %}
-        {%- include prenota-prova-modal.html -%}
+        {% include contact-form.html %} {%- include prenota-prova-modal.html -%}
     </section>
     {% include footer.html %} {% include footer-scripts.html %}
     <script src="/assets/js/vendor/simpleCart.min.js"></script>
-<script>
-    simpleCart({
-        cartColumns: [{
-            attr: "name",
-            label: "Abito: "
-        }, ],
-        // "div" or "table" - builds the cart as a 
-        // table or collection of divs
-        cartStyle: "table",
+    <script>
+        simpleCart({
+            cartColumns: [{
+                attr: "name",
+                label: "Abito: "
+            }, ],
+            // "div" or "table" - builds the cart as a 
+            // table or collection of divs
+            cartStyle: "table",
 
-    });
-    simpleCart.bind("afterAdd", function() {
-        var updatedCart = $('table').text();
-        console.log(updatedCart);
-        $('textarea').val(updatedCart);
-    });
-</script>
+        });
+        simpleCart.bind("afterAdd", function() {
+            var updatedCart = $('table').text();
+            console.log(updatedCart);
+            $('textarea').val(updatedCart);
+        });
+    </script>
 </body>
 
 </html>
