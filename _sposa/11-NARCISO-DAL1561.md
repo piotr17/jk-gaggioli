@@ -1,6 +1,6 @@
 ---
 title: 11-NARCISO-DAL1561
-image: 11-NARCISO-DAL1561.jpg
+image: /v1543919832/viterbo/11-NARCISO-DAL1561.jpg
 brand: dalin
 layout: vestito
 ---

@@ -1,6 +1,6 @@
 ---
 title: 23-Eiko-POL1371
-image: 23-Eiko-POL1371.JPG
+image: /v1543919832/viterbo/23-Eiko-POL1371.JPG
 brand: polignano
 layout: vestito
 ---

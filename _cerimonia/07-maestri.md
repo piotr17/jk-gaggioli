@@ -1,6 +1,6 @@
 ---
 title: 07-maestri
-image: 07-maestri.jpg
+image: /v1543919832/viterbo/07-maestri.jpg
 brand: maestri
 layout: vestito
 ---

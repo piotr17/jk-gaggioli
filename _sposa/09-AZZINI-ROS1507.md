@@ -1,6 +1,6 @@
 ---
 title: 09-AZZINI-ROS1507
-image: 09-AZZINI-ROS1507.jpg
+image: /v1543919832/viterbo/09-AZZINI-ROS1507.jpg
 brand: rosa-clara
 layout: vestito
 ---

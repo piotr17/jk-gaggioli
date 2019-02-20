@@ -1,6 +1,6 @@
 ---
 title: 01-QAYLA-MAR1347
-image: 01-QAYLA-MAR1347.jpg
+image: /v1543919832/viterbo/01-QAYLA-MAR1347.jpg
 brand: martha-blanc
 layout: vestito
 ---

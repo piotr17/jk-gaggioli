@@ -1,6 +1,6 @@
 ---
 title: 06-IXTAPA(withoverskirt)-INM1586
-image: 06-IXTAPA(withoverskirt)-INM1586.jpg
+image: /v1543919832/viterbo/06-IXTAPA_withoverskirt_-INM1586.jpg
 brand: inmaculada
 layout: vestito
 ---

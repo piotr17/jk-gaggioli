@@ -1,6 +1,6 @@
 ---
 title: 11-QUIAL-MAR1350
-image: 11-QUIAL-MAR1350.jpg
+image: /v1543919832/viterbo/11-QUIAL-MAR1350.jpg
 brand: martha-blanc
 layout: vestito
 ---

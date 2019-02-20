@@ -1,6 +1,6 @@
 ---
 title: 06-ledamigelle
-image: 06-ledamigelle.jpg
+image: /v1543919832/viterbo/06-ledamigelle.jpg
 brand: Le-damigelle-di-Caroline-M
 layout: vestito
 ---

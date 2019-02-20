@@ -1,6 +1,6 @@
 ---
 title: 03-ZINNIA-GAL1575
-image: 03-ZINNIA-GAL1575.jpg
+image: /v1543919832/viterbo/03-ZINNIA-GAL1575.jpg
 brand: galizia
 layout: vestito
 ---

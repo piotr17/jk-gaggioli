@@ -1,6 +1,6 @@
 ---
 title: galizia
-image: galizia.png
+image: /v1543919832/viterbo/galizia.png
 brand: 
 layout: vestito
 ---

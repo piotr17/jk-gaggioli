@@ -1,6 +1,6 @@
 ---
 title: 17-INCANTO-DAL1604
-image: 17-INCANTO-DAL1604.jpg
+image: /v1543919832/viterbo/17-INCANTO-DAL1604.jpg
 brand: dalin
 layout: vestito
 ---

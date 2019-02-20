@@ -1,6 +1,6 @@
 ---
 title: 18-Girly-REM1531
-image: 18-Girly-REM1531.jpg
+image: /v1543919832/viterbo/18-Girly-REM1531.jpg
 brand: rembo-styling
 layout: vestito
 ---

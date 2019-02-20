@@ -1,6 +1,6 @@
 ---
 title: 25-Ikio-POL1374
-image: 25-Ikio-POL1374.JPG
+image: /v1543919832/viterbo/25-Ikio-POL1374.JPG
 brand: polignano
 layout: vestito
 ---

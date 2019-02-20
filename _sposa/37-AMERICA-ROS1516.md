@@ -1,6 +1,6 @@
 ---
 title: 37-AMERICA-ROS1516
-image: 37-AMERICA-ROS1516.jpg
+image: /v1543919832/viterbo/37-AMERICA-ROS1516.jpg
 brand: rosa-clara
 layout: vestito
 ---

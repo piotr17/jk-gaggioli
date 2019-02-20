@@ -1,6 +1,6 @@
 ---
 title: 03-COLIMA-INM1585
-image: 03-COLIMA-INM1585.jpg
+image: /v1543919832/viterbo/03-COLIMA-INM1585.jpg
 brand: inmaculada
 layout: vestito
 ---

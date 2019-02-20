@@ -1,6 +1,6 @@
 ---
 title: 01-DALIA-GAL1568
-image: 01-DALIA-GAL1568.jpg
+image: /v1543919832/viterbo/01-DALIA-GAL1568.jpg
 brand: galizia
 layout: vestito
 ---
