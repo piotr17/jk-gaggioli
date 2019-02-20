@@ -1,35 +1,51 @@
 <!doctype html>
 <html lang="it">
+{% assign obj = site.data.marche[page.brand] %}
 
 <head>
     {% include head.html %}
+    <title>{{obj.title}} | {{page.title}}</title>
 </head>
 
 <body>
+
     {% include header.html %}
 
-    <main role="main" class="container-fluid p-3">
+    <main role="main" class="container-fluid p-3 mt-4">
         <div class="row">
-            <div class="col-12 col-lg-2 simpleCart_shelfItem">
+            <div class="col-12 col-lg-2 simpleCart_shelfItem text-center">
+                <span class="item_name d-none">{{page.title}}</span>
+                <div class="p-1"><img src="{{ obj.logo }}" alt="{{obj.title}}">
 
-                <div>{% assign obj = site.data.marche[page.brand] %} <img src="{{ obj.logo }}" alt=""><br>
-                    <small>Codice Abito: <span class="item_name">{{page.title}}</span></small>
                     <hr> {% include prenota-prova.html %}
                 </div>
 
             </div>
-            <div class="col-12 col-lg-7">
+            <div class="col-12 col-lg-7" itemscope itemtype="http://schema.org/Product">
 
-                <img src="/uploads/{{page.immagine_vestito}}" alt="{{page.title}}" class="img-fluid shadow rounded mx-auto d-block">
-
+                <img itemprop="image" src="https://res.cloudinary.com/dtd4duitw/image/upload/c_scale,q_auto:good,w_1200/{{page.image}}" alt="{{obj.title}}" class="img-fluid shadow rounded mx-auto d-block"><br>
+                <p itemprop="name" class="text-center"><small>Codice Abito: <span>{{page.title}}</span></small></p>
             </div>
-            <aside class="col-12 col-lg-3 mt-4"> {% include vestito--abiti-loop.html %}
+            <aside class="col-12 col-lg-3 mt-4 text-center">
+                <h4> Le Proposte di <strong>{{obj.title}}</strong></h4>
+                {%assign brand = page.brand %}
+                <section class="d-flex flex-row flex-wrap">
+                    {% assign related = site[page.collection] | where : "brand",brand %} {% for item in related %} {% if item.image%}
+
+                    <div class="col-6 col-sm-4 col-lg-6">
+                        <div class="card shadow">
+                            <a href="{{item.url}}" title="{{item.brand}}">
+                                <img class="card-img-top object-fit_cover" src="https://res.cloudinary.com/dtd4duitw/image/upload/c_scale,q_auto:good,w_300/{{item.image}}" alt="{{item.brand}} {{item.title}}"></a>
+                        </div>
+                    </div>
+                    {% endif %} {% endfor %}
+                </section>
             </aside>
         </div>
     </main>
 
     <section>
-        {% include contact-form.html %}
+        {% include contact-form.html %} {%- include prenota-prova-modal.html -%}
     </section>
     {% include footer.html %} {% include footer-scripts.html %}
 </body>

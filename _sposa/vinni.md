@@ -1,6 +1,6 @@
 ---
 title: vinni
-image: vinni.jpg
+image: /v1543919832/viterbo/vinni.jpg
 brand: 
 layout: vestito
 ---

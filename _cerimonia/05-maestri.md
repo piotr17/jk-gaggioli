@@ -1,6 +1,6 @@
 ---
 title: 05-maestri
-image: 05-maestri.jpg
+image: /v1543919832/viterbo/05-maestri.jpg
 brand: maestri
 layout: vestito
 ---

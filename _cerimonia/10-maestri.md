@@ -1,6 +1,6 @@
 ---
 title: 10-maestri
-image: 10-maestri.jpg
+image: /v1543919832/viterbo/10-maestri.jpg
 brand: maestri
 layout: vestito
 ---

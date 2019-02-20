@@ -1,6 +1,6 @@
 ---
 title: 10-NARCISO-DAL561
-image: 10-NARCISO-DAL561.jpg
+image: /v1543919832/viterbo/10-NARCISO-DAL561.jpg
 brand: dalin
 layout: vestito
 ---
