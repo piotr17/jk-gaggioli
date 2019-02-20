@@ -50,10 +50,10 @@ sections:
   label: Data
   create: none
   match: "**/*.{json,yaml,yml}"
-upload_dir: uploads
-public_path: "/uploads"
+upload_dir: viterbo
+public_path: ''
 front_matter_path: ''
-use_front_matter_path: false
+use_front_matter_path: 
 file_template: ":filename:"
 build:
   preview_command: bundle exec jekyll build --drafts --unpublished --future -d _site
