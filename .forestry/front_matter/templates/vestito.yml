@@ -29,15 +29,16 @@ fields:
   label: Marca
   description: Inserisci la marca del vestito
 pages:
-- _cerimonia/01-impero-1218.md
-- _cerimonia/02-impero-1226.md
-- _cerimonia/05-impero-1225.md
-- _cerimonia/03-impero-1220.md
-- _cerimonia/04-impero-1217.md
-- _cerimonia/06-impero-1222.md
+- _cerimonia/06-soniapena-1212.md
+- _cerimonia/05-soniapena-1214.md
+- _cerimonia/04-soniapena-1201.md
+- _cerimonia/03-soniapena-1202.md
 - _cerimonia/02-soniapena-1205.md
 - _cerimonia/01-soniapena-1213.md
-- _cerimonia/03-soniapena-1202.md
-- _cerimonia/04-soniapena-1201.md
-- _cerimonia/05-soniapena-1214.md
+- _cerimonia/06-impero-1222.md
+- _cerimonia/05-impero-1225.md
+- _cerimonia/04-impero-1217.md
+- _cerimonia/03-impero-1220.md
+- _cerimonia/02-impero-1226.md
+- _cerimonia/01-impero-1218.md
 - _accessori/test.md
