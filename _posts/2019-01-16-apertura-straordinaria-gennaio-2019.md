@@ -2,10 +2,10 @@
 layout: post
 tags: []
 immagini:
-- "/uploads/immagine apertura straordinaria 20 genn 19 VT.jpg"
+  - "/v1551093583/viterbo/immagine_apertura_straordinaria_20_genn_19_VT.jpg"
 date: 2019-01-16 11:49:35 +0000
-
 ---
+
 APERTURA STRAORDINARIA GENNAIO 2019
 
 Il 20 gennaio 2019 a grande richiesta Gaggioli Sposi apre le porte del punto vendita di Viterbo eccezionalmente di domenica.

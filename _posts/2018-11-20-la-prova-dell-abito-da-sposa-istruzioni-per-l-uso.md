@@ -1,11 +1,10 @@
 ---
-title: 'La prova dell''abito da sposa: istruzioni per l''uso'
+title: "La prova dell'abito da sposa: istruzioni per l'uso"
 layout: post
 date: 2018-11-20 15:00:47 +0000
 tags: []
 immagini:
-- "/uploads/274_veduta_10-1.jpg"
-
+  - "/v1551093583/viterbo/274_veduta_10-1.jpg"
 ---
 
 Quante di voi, prima di affrontare la prova in un atelier di abiti da sposa, si sono chieste: ma come funziona una prova? Servirà qualcosa? Cosa devo portare? Con chi andare per farmi consigliare al meglio?

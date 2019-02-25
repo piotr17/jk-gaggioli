@@ -4,13 +4,13 @@ layout: post
 date: 2018-11-10 15:10:08 +0000
 tags: []
 immagini:
-- "/uploads/IMG-20181110-WA0006.jpg"
-- "/uploads/IMG-20181110-WA0005.jpg"
-- "/uploads/IMG-20181110-WA0003.jpg"
-- "/uploads/IMG-20181110-WA0002.jpg"
-- "/uploads/IMG-20181110-WA0000.jpg"
-
+  - "/v1551093583/viterbo/IMG-20181110-WA0006.jpg"
+  - "/v1551093583/viterbo/IMG-20181110-WA0005.jpg"
+  - "/v1551093583/viterbo/IMG-20181110-WA0003.jpg"
+  - "/v1551093583/viterbo/IMG-20181110-WA0002.jpg"
+  - "/v1551093583/viterbo/IMG-20181110-WA0000.jpg"
 ---
+
 L'appuntamento di "Realizza il tuo sogno" è ormai una tradizione del punto vendita Gaggioli Sposi di Viterbo.
 
 A grande richiesta, nel pieno della stagione, ci mettiamo al servizio delle future spose per accompagnarle, passo dopo passo, verso la realizzazione del loro "sogno": l'abito da Sposa.
