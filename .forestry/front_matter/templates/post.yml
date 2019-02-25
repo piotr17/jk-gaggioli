@@ -15,7 +15,6 @@ fields:
   label: immagini
   description: Inserire le immagini, appariranno come una gallery
 pages:
-- _posts/2019-02-25-REALIZZA IL TUO SOGNO MARZO 2019.md
 - _posts/2019-01-23-REALIZZA IL TUO SOGNO GENNAIO 2019.md
 - _posts/2019-01-16-apertura-straordinaria-gennaio-2019.md
 - _posts/2019-02-01-promo-san-valentino.md
