@@ -1,7 +1,6 @@
 ---
 label: marche.yml
 hide_body: false
-is_partial: false
 fields:
 - name: Marche
   label: Marche
