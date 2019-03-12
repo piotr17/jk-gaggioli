@@ -28,6 +28,7 @@ fields:
   label: Marca
   description: Inserisci la marca del vestito
 pages:
+- _cerimonia/08-impero-1249.md
 - _cerimonia/07-impero-1243.md
 - _cerimonia/13-soniapena-1233.md
 - _cerimonia/04-soniapena-1201.md
