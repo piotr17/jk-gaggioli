@@ -28,6 +28,7 @@ fields:
   label: Marca
   description: Inserisci la marca del vestito
 pages:
+- _cerimonia/12-impero-1247.md
 - _cerimonia/11-impero-1246.md
 - _cerimonia/10-impero-1244.md
 - _cerimonia/09-impero-1248.md
