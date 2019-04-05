@@ -28,6 +28,7 @@ fields:
   label: Marca
   description: Inserisci la marca del vestito
 pages:
+- _cerimonia/09-maestri-1236.md
 - _cerimonia/08-maestri-1252.md
 - _cerimonia/03-maestri-1230.md
 - _cerimonia/02-maestri-1229.md
