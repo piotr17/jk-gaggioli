@@ -1,4 +1,4 @@
 ---
 layout: home
-gallery: ["/uploads/lnd/images-0.jpg", "/uploads/lnd/images-1.jpg", "/uploads/lnd/images-2.jpg"]
+gallery: ["https://res.cloudinary.com/dfqaezdcx/image/upload/v1565186313/beach-beverage-cocktail-68672.webp"]
 ---
