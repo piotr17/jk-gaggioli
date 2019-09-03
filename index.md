@@ -1,4 +1,7 @@
 ---
 layout: home
-gallery: ["https://res.cloudinary.com/dfqaezdcx/image/upload/v1565186313/beach-beverage-cocktail-68672.webp"]
+carousel-small:
+carousel-small-strong: Realizza il tuo sogno
+carousel-caption: Scopri la nostra collezione di Abiti da Sposa, Sposo e Cerimonia.
+gallery: ["https://res.cloudinary.com/dtd4duitw/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1567253002/viterbo/70215721_1441918852613190_8315255086775271424_o.jpg"]
 ---
