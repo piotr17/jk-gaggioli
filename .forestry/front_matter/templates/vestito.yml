@@ -28,6 +28,9 @@ fields:
   label: Marca
   description: Inserisci la marca del vestito
 pages:
+- _cerimonia/03-maestri-1230.md
+- _cerimonia/12-impero-1247.md
+- _cerimonia/02-impero-1226.md
 - _cerimonia/01-soniapena-1258.md
 - _cerimonia/02-soniapena-1259.md
 - _cerimonia/10-impero-1244.md
@@ -42,14 +45,11 @@ pages:
 - _cerimonia/09-soniapena-1203.md
 - _cerimonia/02-maestri-1229.md
 - _cerimonia/01-maestri-1227.md
-- _cerimonia/03-maestri-1230.md
 - _cerimonia/06-soniapena-1212.md
 - _cerimonia/01-soniapena-1213.md
 - _cerimonia/02-soniapena-1205.md
 - _cerimonia/03-impero-1220.md
 - _cerimonia/08-maestri-1252.md
-- _cerimonia/12-impero-1247.md
 - _cerimonia/08-impero-1249.md
 - _cerimonia/05-impero-1225.md
-- _cerimonia/02-impero-1226.md
 - _accessori/test.md
