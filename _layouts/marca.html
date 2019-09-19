@@ -1,13 +1,15 @@
 <!doctype html>
+{% assign brand = page.title | slugify %}
 <html lang="it">
 
 <head>
     {% include head.html %}
+    <title>Gaggioli Sposi - {{site.data.marche[brand].name}} - Abiti da Sposa, Abiti da Sposo, Proposte per la Cerimonia - Viterbo</title>
 </head>
 
 <body>
     {% include gtmbody.html %} {% include header.html %}
-    {% assign brand = page.title | slugify %}
+    
     <header class="container-fluid p-4">
             <div class="row">
                     <div class="col"><h1><img src="{{site.data.marche[brand].logo}}" alt="page.title"></h1></div>
