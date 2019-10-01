@@ -7,6 +7,6 @@ ordine: 1
 published: false
 
 ---
-Abito romantico in organza. Corpino con applicazioni ricamate in perline manichina leggermente scesa.
+Abito **romantico** in organza. Corpino con applicazioni ricamate in perline E manichina leggermente scesa.
 
 La gonna è arricchita nel retro da ruches impreziosite dallo stesso ricamo del corpino.
