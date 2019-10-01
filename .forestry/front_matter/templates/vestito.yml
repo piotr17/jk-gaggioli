@@ -27,6 +27,22 @@ fields:
     required: true
   label: Marca
   description: Inserisci la marca del vestito
+- name: aggettivi
+  type: tag_list
+  default: []
+  label: Aggettivi
+  description: Inserisci delle parole che identificano il vestito (Romantico, Sirena,
+    ecc...)
+- name: ordine
+  type: number
+  label: Ordine
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+  description: Inserisci in che ordine deve apparire il vestito
 pages:
 - _cerimonia/03-maestri-1230.md
 - _cerimonia/12-impero-1247.md
