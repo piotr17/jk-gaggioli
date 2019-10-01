@@ -44,6 +44,7 @@ fields:
     step: 
   description: Inserisci in che ordine deve apparire il vestito
 pages:
+- _sposa/RED - INM1664.md
 - _sposa/LIME - INM1663.md
 - _cerimonia/03-maestri-1230.md
 - _cerimonia/12-impero-1247.md
