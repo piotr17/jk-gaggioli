@@ -44,6 +44,7 @@ fields:
     step: 
   description: Inserisci in che ordine deve apparire il vestito
 pages:
+- _sposa/002 - PREZIOSA - DAL1661.md
 - _sposa/001 - PREZIOSA - DAL1661.md
 - _sposa/002 LIME - INM1663.md
 - _sposa/001 RED - INM1664.md
