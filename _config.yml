@@ -16,7 +16,7 @@
 title: Gaggioli Sposi - Abiti da Sposa, Sposo e Cerimonia Viterbo
 author: Gaggioli Sposi
 email: info@gaggiolisposi.it
-description: Abiti da Sposa, Abiti da Sposo, Proposte per la Cerimonia # this means to ignore newlines until "baseurl:"
+description: Idee, disegni e realizzazioni dei migliori laboratori Italiani ed Internazionali. Da oltre trent’anni anni assistiamo gli Sposi e le Spose scelta più importante. Cerimonia e Accessori. Cura del dettaglio. Prenota ora appuntamento. Assistenza dedicata. # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://www.gaggiolisposi.it # the base hostname & protocol for your site, e.g. http://example.com
 logo: "/assets/img/logo-gaggioli-sposi-centrato.jpg"
