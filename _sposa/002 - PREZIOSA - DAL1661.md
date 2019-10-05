@@ -6,4 +6,6 @@ brand: dalin
 ordine: 1
 
 ---
-Abito romantico con corpino con applicazioni floreali ricamate e manichina leggermente scesa.
+Abito **romantico** in organza. Corpino con applicazioni ricamate in perline e manichina leggermente scesa.
+
+La gonna è arricchita nel retro da ruches impreziosite dallo stesso ricamo del corpino.
