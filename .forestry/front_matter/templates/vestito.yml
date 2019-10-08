@@ -44,6 +44,7 @@ fields:
     step: 
   description: Inserisci in che ordine deve apparire il vestito
 pages:
+- _sposa/004 - JOA20521 - JOL1624.md
 - _sposa/003 - JOA20261 - JOL1623.md
 - _sposa/002 - JOA20261 - JOL1623.md
 - _sposa/001 - JOA20261 - JOL1623.md
