@@ -4,7 +4,6 @@ aggettivi: []
 image: "/v1570617824/viterbo/INM166_-_LAUREL_eef5vv.jpg"
 brand: inmaculada
 ordine: 1
-published: false
 
 ---
 Abito in particolarissimo stile boho chic.

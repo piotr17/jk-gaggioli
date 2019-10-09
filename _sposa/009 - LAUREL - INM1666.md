@@ -1,7 +1,7 @@
 ---
 layout: vestito
 aggettivi: []
-image: "/v1570618022/viterbo/INM166_-_LAUREL_retro_kxvptl.jpg"
+image: "/v1570618130/viterbo/INM1666_-_LAUREL_dettaglio_corpino_vmxvvu.jpg"
 brand: inmaculada
 ordine: 1
 
