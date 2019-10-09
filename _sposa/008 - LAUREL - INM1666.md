@@ -7,3 +7,6 @@ ordine: 1
 published: false
 
 ---
+Abito in particolarissimo stile boho chic.
+
+Il corpino alterna fasce in pizzo a fasce in tulle trasparente che si ripetono nella manica lunga.
