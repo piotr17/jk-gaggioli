@@ -44,6 +44,13 @@ fields:
     step: 
   description: Inserisci in che ordine deve apparire il vestito
 pages:
+- _sposa/045 - E0711 - EGO'1673.md
+- _sposa/006 - E0695 - EGO'1665.md
+- _sposa/001 - E0701 - EGO'1662.md
+- _sposa/005 - LIME - INM1663.md
+- _sposa/009 - JOA20571 - JOL1625.md
+- _sposa/034 - JOA20941 - JOL1630.md
+- _sposa/005 - E0695 - EGO'1665.md
 - _sposa/044 - JOA20441 - JOL1667.md
 - _sposa/043 - JOA20441 - JOL1667.md
 - _sposa/042 - JOA20441 - JOL1667.md
@@ -54,7 +61,6 @@ pages:
 - _sposa/038 - JOA20981 - JOL1638.md
 - _sposa/037 - JOA20981 - JOL1638.md
 - _sposa/035 - JOA20941 - JOL1630.md
-- _sposa/034 - JOA20941 - JOL1630.md
 - _sposa/032 - JOA20821 - JOL1629.md
 - _sposa/033 - JOA20821 - JOL1629.md
 - _sposa/031 - JOA20751 - JOL1628.md
@@ -83,7 +89,6 @@ pages:
 - _sposa/012 - JOA20341 - JOL1639.md
 - _sposa/011 - JOA20341 - JOL1639.md
 - _sposa/010 - JOA20341 - JOL1639.md
-- _sposa/009 - JOA20571 - JOL1625.md
 - _sposa/008 - JOA20571 . JOL1625.md
 - _sposa/007 - JOA20571 - JOL1625.md
 - _sposa/005 - JOA20521 - JOL1624.md
@@ -92,16 +97,12 @@ pages:
 - _sposa/003 - JOA20261 - JOL1623.md
 - _sposa/002 - JOA20261 - JOL1623.md
 - _sposa/001 - JOA20261 - JOL1623.md
-- _sposa/006 - E0695 - EGO'1665.md
-- _sposa/005 - E0695 - EGO'1665.md
 - _sposa/004 - E0695 - EGO'1665.md
 - _sposa/003 - E686B - EGO'1653.md
 - _sposa/002 - E0701 - EGO'1662.md
-- _sposa/001 - E0701 - EGO'1662.md
 - _sposa/004 - LOLITA - DAL1636.md
 - _sposa/002 - PREZIOSA - DAL1661.md
 - _sposa/006 - LIME - INM1663.md
-- _sposa/005 - LIME - INM1663.md
 - _sposa/002 - RED - INM1664.md
 - _sposa/004 - LIME - INM1663.md
 - _sposa/003 - LOLITA - DAL1636.md
