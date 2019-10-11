@@ -6,6 +6,6 @@ brand: dalin
 ordine: 1
 
 ---
-Abito romantico con gonna in mikado e corpino gioiello con scollo a cuore.
+Abito **romantico** con gonna in **mikado** e corpino gioiello con scollatura a cuore.
 
 Bolero con manica lunga staccabile.
