@@ -5,7 +5,6 @@ immagini:
 - "/v1570546774/viterbo/IMG-20191007-WA0000_uecxmh.jpg"
 
 ---
-Realizza il tuo sogno!! 
 
 Torna l'appuntamento di apertura straordinaria firmato Gaggioli Sposi.
 
