@@ -5,7 +5,6 @@ immagini:
 - "/v1568976355/viterbo/IMG-20190916-WA0004_mjiqnt.jpg"
 
 ---
-Torna l'appuntamento con il sogno firmato **Gaggioli Spos**i.
 
 Sabato 28 e Domenica 29 settembre offriamo alla **sposa** un'opportunità esclusiva.
 
