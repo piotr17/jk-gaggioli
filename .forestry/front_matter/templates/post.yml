@@ -14,6 +14,7 @@ fields:
   label: immagini
   description: Inserire le immagini, appariranno come una gallery
 pages:
+- _posts/REALIZZA IL TUO SOGNO OTTOBRE 2019.md
 - _posts/2019-10-08-REALIZZA IL TUO SOGNO OTTOBRE 2019.md
 - _posts/2019-08-31-COLLEZIONI SPOSA 2020.md
 - _posts/2018-11-07-scribano-1966.md
