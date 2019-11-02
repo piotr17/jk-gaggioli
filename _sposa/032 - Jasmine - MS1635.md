@@ -4,7 +4,6 @@ aggettivi: []
 image: "/v1572703292/viterbo/IMG_6589mod_smvqgm.jpg"
 brand: gaggioli-sposi
 ordine: 1
-published: false
 
 ---
 Abito con scollo a cuore e punto vita leggermente ribassato. 
