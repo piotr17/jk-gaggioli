@@ -1,0 +1,12 @@
+---
+layout: vestito
+aggettivi: []
+image: "/v1572699795/viterbo/IMG_6495mod_gfxiz3.jpg"
+brand: gaggioli-sposi
+ordine: 1
+published: false
+
+---
+Sensualissimo abito scivolato in tessuto doppiato. 
+
+I pannelli si aprono sul davanti lasciando intravedere il pizzo in un meraviglioso effetto di continuità con il corpino.
