@@ -44,6 +44,7 @@ fields:
     step: 
   description: Inserisci in che ordine deve apparire il vestito
 pages:
+- _sposa/002 - Charlotte - MS1632.md
 - _sposa/001 - Charlotte - MS1634.md
 - _sposa/012 - E0706 - EGO'1675.md
 - _sposa/011 - E0706 - EG0'1675.md
