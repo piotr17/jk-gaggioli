@@ -44,6 +44,7 @@ fields:
     step: 
   description: Inserisci in che ordine deve apparire il vestito
 pages:
+- _sposa/021 - Hilda - MS1668.md
 - _sposa/018 - Bonita - MS1631.md
 - _sposa/020 - Bonita - MS1631.md
 - _sposa/019 - Bonita - MS1631.md
