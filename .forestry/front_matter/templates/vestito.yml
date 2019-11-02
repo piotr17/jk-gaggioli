@@ -44,6 +44,7 @@ fields:
     step: 
   description: Inserisci in che ordine deve apparire il vestito
 pages:
+- _sposa/004 - Muriel - MS1670.md
 - _sposa/003 - Charlotte - MS1632.md
 - _sposa/002 - Charlotte - MS1632.md
 - _sposa/001 - Charlotte - MS1634.md
