@@ -4,7 +4,6 @@ aggettivi: []
 image: "/v1572700100/viterbo/IMG_6500mod._q0unyf.jpg"
 brand: gaggioli-sposi
 ordine: 1
-published: false
 
 ---
 Sensualissimo abito scivolato in tessuto doppiato. 
