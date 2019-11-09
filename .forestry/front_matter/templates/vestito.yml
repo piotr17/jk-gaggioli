@@ -44,6 +44,7 @@ fields:
     step: 
   description: Inserisci in che ordine deve apparire il vestito
 pages:
+- _sposo/002 - D23Z - PRI1231.md
 - _sposo/001 - D12N - PRI1229.md
 - _sposa/015 - E0705 - EGO'1677.md
 - _sposa/014 - E0705 - EGO'1677.md
