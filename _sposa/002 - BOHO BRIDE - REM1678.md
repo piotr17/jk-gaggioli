@@ -7,3 +7,4 @@ ordine: 1
 published: false
 
 ---
+Meraviglioso abito scivolato 100% seta color crema con scollatura off- shoulder.
