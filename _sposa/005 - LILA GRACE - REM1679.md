@@ -7,3 +7,4 @@ ordine: 1
 published: false
 
 ---
+Abito scivolato color avorio con corpino in pizzo a manica corta.
