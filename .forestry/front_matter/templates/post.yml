@@ -14,8 +14,8 @@ fields:
   label: immagini
   description: Inserire le immagini, appariranno come una gallery
 pages:
-- _posts/Realizza il tuo sogno Novembre 2019.md
 - _posts/2019-08-31-COLLEZIONI SPOSA 2020.md
+- _posts/Realizza il tuo sogno Novembre 2019.md
 - _posts/2018-11-07-scribano-1966.md
 - _posts/2018-10-25-nuovi-arrivi.md
 - _posts/2018-11-10-gaggioli-sposi-presenta-l-evento-realizza-il-tuo-sogno.md
