@@ -44,6 +44,7 @@ fields:
     step: 
   description: Inserisci in che ordine deve apparire il vestito
 pages:
+- _sposo/005 - PET1243.md
 - _sposa/006 - Muriel - MS1670.md
 - _sposa/015 - Trudie - MS1656.md
 - _sposa/010 - Lucia - MS1671.md
