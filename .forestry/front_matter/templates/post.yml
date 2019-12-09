@@ -14,14 +14,13 @@ fields:
   label: immagini
   description: Inserire le immagini, appariranno come una gallery
 pages:
-- _posts/2019-03-16-APERTURA STRAORDINARIA MARZO 2019.md
-- _posts/2019-01-16-apertura-straordinaria-gennaio-2019.md
-- _posts/Realizza il tuo sogno Novembre 2019.md
-- _posts/2018-11-07-scribano-1966.md
-- _posts/2018-10-25-nuovi-arrivi.md
 - _posts/2018-11-10-gaggioli-sposi-presenta-l-evento-realizza-il-tuo-sogno.md
 - _posts/Nuove collezioni Sposa 2020.md
+- _posts/2018-11-07-scribano-1966.md
+- _posts/2018-10-25-nuovi-arrivi.md
 - _posts/2018-11-20-la-prova-dell-abito-da-sposa-istruzioni-per-l-uso.md
-- _posts/2019-02-25-REALIZZA IL TUO SOGNO MARZO 2019.md
-- _posts/2019-02-01-promo-san-valentino.md
 - _posts/2019-01-23-REALIZZA IL TUO SOGNO GENNAIO 2019.md
+- _posts/2019-01-16-apertura-straordinaria-gennaio-2019.md
+- _posts/2019-03-16-APERTURA STRAORDINARIA MARZO 2019.md
+- _posts/2019-02-01-promo-san-valentino.md
+- _posts/2019-02-25-REALIZZA IL TUO SOGNO MARZO 2019.md
