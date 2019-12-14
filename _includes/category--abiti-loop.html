@@ -3,7 +3,7 @@
     {% assign group = site[page.collection] | group_by : "brand" %}
     <div class="row">
         {% if page.hideFilter == false %}
-        <div class="col-4 col-lg-12">
+        <div class="d-none d-md-block col-4 col-lg-12">
             <div class="button-group filter-button-group">
                 <div class="d-flex flex-row align-items-center justify-content-center align-content-stretch flex-wrap" itemscope itemtype="http://schema.org/Brand">
                     <button class="btn btn-link btn-brand col-xs-3" data-filter="*"><img src="/assets/img/tutti.jpg" width="100" class="img-fluid" alt="tutti"></button> {% for item in group %} {% if item.name != empty %}
