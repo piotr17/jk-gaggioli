@@ -4,7 +4,7 @@
 
 <head>
     {% include head.html %}
-    <title>{{obj.title}} | {{page.title}}</title>
+    <title>Abito da site[page.collection] {{obj.title}} | {{page.title}}</title>
 </head>
 
 <body>
@@ -23,8 +23,8 @@
             </div>
             <div class="col-12 col-lg-7" itemscope itemtype="http://schema.org/Product">
 
-                <img itemprop="image" src="https://res.cloudinary.com/dtd4duitw/image/upload/c_scale,q_auto:good,w_1200,fl_progressive/{{page.image}}" alt="{{obj.title}}" class="img-fluid shadow rounded mx-auto d-block"><br>
-                <h1 itemprop="name" class="text-center" style="font-size:1rem">{{obj.title}} - Abito<span>{{page.title}}</span></h1>
+                <img itemprop="image" src="https://res.cloudinary.com/dtd4duitw/image/upload/c_scale,q_auto:good,w_1200,fl_progressive/{{page.image}}" alt="Abito da {{page.collection}} {{obj.title}}" class="img-fluid shadow rounded mx-auto d-block"><br>
+                <h1 itemprop="name" class="text-center" style="font-size:1rem">{{obj.title}} - Abito da {{page.collection}} <span>{{page.title}}</span></h1>
             </div>
             <aside class="col-12 col-lg-3 mt-4 text-center">
                 <h4> Le Proposte di <strong>{{obj.title}}</strong></h4>
@@ -35,7 +35,7 @@
                     <div class="col-6 col-sm-4 col-lg-6">
                         <div class="card shadow">
                             <a href="{{item.url}}" title="{{item.brand}}">
-                                <img class="card-img-top object-fit_cover" src="https://res.cloudinary.com/dtd4duitw/image/upload/c_scale,q_auto:good,w_300,fl_progressive/{{item.image}}" alt="{{item.brand}} {{item.title}}"></a>
+                                <img class="card-img-top object-fit_cover" src="https://res.cloudinary.com/dtd4duitw/image/upload/c_scale,q_auto:good,w_300,fl_progressive/{{item.image}}" alt="Abito {{item.brand}} {{item.title}}"></a>
                         </div>
                     </div>
                     {% endif %} {% endfor %}

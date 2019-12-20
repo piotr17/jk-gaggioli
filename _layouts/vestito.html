@@ -4,7 +4,7 @@
 
 <head>
     {% include head.html %}
-    <title>{{obj.title}} {{page.title}}</title>
+    <title>Abito da {{page.collection}} {{obj.title}} | {{page.title}}</title>
 </head>
 
 <body>
@@ -24,7 +24,7 @@
             <div class="col-12 col-lg-7" itemscope itemtype="http://schema.org/Product">
 
                 <img itemprop="image" src="https://res.cloudinary.com/dtd4duitw/image/upload/c_scale,q_auto:good,w_1200,fl_progressive/{{page.image}}" alt="{{obj.title}}" class="img-fluid shadow rounded mx-auto d-block"><br>
-                <h1 itemprop="name" class="text-center" style="font-size:1rem"><small>Abito {{obj.title}} - <span>{{page.title}}</span></small></h1>
+                <h1 itemprop="name" class="text-center" style="font-size:1rem"><small>Abito da {{page.collection}} {{obj.title}} - <span>{{page.title}}</span></small></h1>
             
             </div>
             <aside class="col-12 col-lg-3 mt-4 text-center">
