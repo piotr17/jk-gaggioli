@@ -19,7 +19,7 @@
                 <div class="grid-sizer"></div>
                 {% for item in collection %} {% if item.brand %}
                 <div class="grid-item {{item.brand}} card shadow">
-                    <a href="{{item.url}}"><img src="https://res.cloudinary.com/dtd4duitw/image/upload/f_auto,fl_lossy,q_auto,fl_progressive,w_400{{item.image}}" class="card-img-top" alt="{{item.title}}"></a>
+                    <a href="{{item.url}}"><img data-src="https://res.cloudinary.com/dtd4duitw/image/upload/f_auto,fl_lossy,q_auto,fl_progressive,w_400{{item.image}}" class="lazyload card-img-top" alt="{{item.title}}"></a>
                 </div>
                 {% endif %} {% endfor %}
             </div>

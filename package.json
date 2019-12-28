@@ -22,5 +22,7 @@
     "lightbox": "^0.5.0",
     "popper.js": "^1.15.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "lazysizes": "^5.2.0"
+  }
 }

@@ -35,7 +35,7 @@
                     <div class="col-6 col-sm-4 col-lg-6">
                         <div class="card shadow">
                             <a href="{{item.url}}" title="{{item.brand}}">
-                                <img class="card-img-top object-fit_cover" src="https://res.cloudinary.com/dtd4duitw/image/upload/c_scale,q_auto:good,w_300,fl_progressive/{{item.image}}" alt="Abito {{item.brand}} {{item.title}}"></a>
+                                <img  data-src="https://res.cloudinary.com/dtd4duitw/image/upload/c_scale,q_auto:good,w_300,fl_progressive/{{item.image}}" data-sizes="auto" data-srcset="https://res.cloudinary.com/dtd4duitw/image/upload/c_scale,q_auto:good,w_300,fl_progressive/{{item.image}} 300w, https://res.cloudinary.com/dtd4duitw/image/upload/c_scale,q_auto:good,w_600,fl_progressive/{{item.image}} 600w, https://res.cloudinary.com/dtd4duitw/image/upload/c_scale,q_auto:good,w_900,fl_progressive/{{item.image}} 900w"alt="Abito {{item.brand}} {{item.title}}" class="card-img-top object-fit_cover lazyload"></a>
                         </div>
                     </div>
                     {% endif %} {% endfor %}
@@ -48,6 +48,7 @@
         {% include contact-form.html %} {%- include prenota-prova-modal.html -%}
     </section>
     {% include footer.html %} {% include footer-scripts.html %}
+    <script src="/assets/js/vendor/lazysizes.min.js" async></script>
 </body>
 
 </html>

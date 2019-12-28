@@ -23,7 +23,7 @@
             </div>
             <div class="col-12 col-lg-7" itemscope itemtype="http://schema.org/Product">
 
-                <img itemprop="image" src="https://res.cloudinary.com/dtd4duitw/image/upload/c_scale,q_auto:good,w_1200,fl_progressive/{{page.image}}" alt="{{obj.title}}" class="img-fluid shadow rounded mx-auto d-block"><br>
+                <img itemprop="image" data-src="https://res.cloudinary.com/dtd4duitw/image/upload/c_scale,q_auto:good,w_1200,fl_progressive/{{page.image}}" alt="Abito da {{page.collection}} {{obj.title}} | {{page.title}}" class="lazyload img-fluid shadow rounded mx-auto d-block"><br>
                 <h1 itemprop="name" class="text-center" style="font-size:1rem"><small>Abito da {{page.collection}} {{obj.title}} - <span>{{page.title}}</span></small></h1>
             
             </div>
@@ -37,8 +37,9 @@
         {% include contact-form.html %} {%- include prenota-prova-modal.html -%} 
     </section>
     {% include footer.html %} {% include footer-scripts.html %}
-    <script src="/assets/js/vendor/simpleCart.min.js"></script>
-    <script>
+    <script src="/assets/js/vendor/lazysizes.min.js" async></script>
+    <script src="/assets/js/vendor/simpleCart.min.js" defer></script>
+    <script defer>
         simpleCart({
             cartColumns: [{
                 attr: "name",

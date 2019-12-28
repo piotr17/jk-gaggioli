@@ -17,10 +17,11 @@
         {% include category--abiti-loop.html %}
     </main>
     {% include footer.html %} {% include footer-scripts.html %} {% include contact-form.html %}
+    <script src="/assets/js/vendor/lazysizes.min.js" async></script>
     <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js" ></script>
     <script  src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js" ></script>
     <script  src="//npmcdn.com/isotope-packery@2/packery-mode.pkgd.js" ></script>
-    <script >
+    <script>
         // init Isotope
         var $grid = $('.grid').isotope({
             layoutMode: 'packery',
@@ -38,8 +39,14 @@
                 filter: filterValue
             });
         });
-        $grid.imagesLoaded().progress(function() {
-            $grid.isotope('layout');
+        document.querySelectorAll(".grid img").forEach(element => {
+            const elem = element;
+            function reflow(){
+                $grid.isotope('layout');
+            }
+
+            new imagesLoaded(elem);
+            elem.addEventListener("lazyloaded", reflow);
         });
     </script>
 </body>
