@@ -3,6 +3,6 @@
 
    {% assign collection = site[page.type] | where : "brand",brand %}
             {%- for item in collection -%}
-                <a href="{{item.url}}"><img src="/uploads/{{page.type}}/thumbs/{{brand}}/{{item.image}}" alt="" />
+                <a href="{{item.url}}"><img src="/uploads/{{page.type}}/thumbs/{{brand}}/{{item.image}}" alt="{{brand}}" class="lazyload" />
                 </a>
                {%- endfor -%}
