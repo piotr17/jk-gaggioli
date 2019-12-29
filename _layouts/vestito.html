@@ -4,6 +4,9 @@
 
 <head>
     {% include head.html %}
+    <script src="/assets/js/vendor/lazysizes.min.js" async></script>
+    <script src="/assets/js/vendor/simpleCart.min.js" defer></script>
+    <script src="/assets/js/simplecart-script.js" defer></script>
     <title>Abito da {{page.collection}} {{obj.title}} | {{page.title}}</title>
 </head>
 
@@ -36,26 +39,8 @@
     <section>
         {% include contact-form.html %} {%- include prenota-prova-modal.html -%} 
     </section>
-    {% include footer.html %} {% include footer-scripts.html %}
-    <script src="/assets/js/vendor/lazysizes.min.js" async></script>
-    <script src="/assets/js/vendor/simpleCart.min.js" defer></script>
-    <script defer>
-        simpleCart({
-            cartColumns: [{
-                attr: "name",
-                label: "Abito: "
-            }, ],
-            // "div" or "table" - builds the cart as a 
-            // table or collection of divs
-            cartStyle: "table",
+    {% include footer.html %}
 
-        });
-        simpleCart.bind("afterAdd", function() {
-            var updatedCart = $('table').text();
-            console.log(updatedCart);
-            $('textarea').val(updatedCart);
-        });
-    </script>
 </body>
 
 </html>
