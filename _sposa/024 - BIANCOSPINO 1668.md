@@ -8,4 +8,4 @@ ordine: 1
 ---
 Sinuosa sirena in pizzo con corpino effetto trasparenza.
 
-Importante ricamo in pizzo ad incorniciare la scollatura della schiena. 
+Importante ricamo in pizzo ad incorniciare la scollatura della schiena.
