@@ -6,4 +6,4 @@ brand: gaggioli-sposi
 ordine: 1
 
 ---
-Abito romantico con ampia gonna  in tulle. Particolare ricamo geometrico in paillettes tono su tono lungo tutta la gonna. 
+Abito romantico con ampia gonna  in tulle. Particolare ricamo geometrico in paillettes tono su tono lungo tutta la gonna.
