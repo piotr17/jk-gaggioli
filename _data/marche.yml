@@ -90,6 +90,10 @@ maestri:
   type: sposa
   title: "Maestri"
   logo: /assets/img/abiti-cerimonia/thumb-maestri-group.jpg
+bagatelle:
+  type: cerimonia
+  title: "Bagatelle"
+  logo: /assets/img/abiti-cerimonia/thumb-bagatelle.jpg
 Sonia-Pena:
   type: sposa
   title: "Sonia Pena"
