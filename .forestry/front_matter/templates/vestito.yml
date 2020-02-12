@@ -45,6 +45,7 @@ fields:
   description: Inserisci in che ordine deve apparire il vestito
 pages:
 - _accessori/test.md
+- _cerimonia/01 - impero - 1272.md
 - _cerimonia/01-maestri-1227.md
 - _cerimonia/01-soniapena-1213.md
 - _cerimonia/01-soniapena-1258.md
@@ -52,12 +53,17 @@ pages:
 - _cerimonia/02-maestri-1229.md
 - _cerimonia/02-soniapena-1205.md
 - _cerimonia/02-soniapena-1259.md
+- _cerimonia/03 - SONIA PENA - 1262.md
+- _cerimonia/03 - impero - 1276.md
 - _cerimonia/03-maestri-1230.md
-- _cerimonia/05-impero-1225.md
+- _cerimonia/04 - impero - 1279.md
+- _cerimonia/04 - sonia pena - 1264.md
+- _cerimonia/05 - sonia pena - 1265.md
 - _cerimonia/06-impero-1222.md
 - _cerimonia/06-soniapena-1212.md
 - _cerimonia/07-impero-1243.md
 - _cerimonia/07-soniapena-1200.md
+- _cerimonia/08 - sonia pena - 1269.md
 - _cerimonia/08-impero-1249.md
 - _cerimonia/09-impero-1248.md
 - _cerimonia/09-soniapena-1203.md
@@ -67,117 +73,117 @@ pages:
 - _cerimonia/12-soniapena-1207.md
 - _sposa/001 - 202017 - GAL1648.md
 - _sposa/001 - BOHO BRIDE - REM1678.md
-- _sposa/001 - Charlotte - MS1634.md
 - _sposa/001 - E0701 - EGO'1662.md
 - _sposa/001 - JOA20261 - JOL1623.md
+- _sposa/001 - MENTA 1634.md
 - _sposa/001 - PREZIOSA - DAL1661.md
 - _sposa/001 RED - INM1664.md
 - _sposa/002 - 202017 - GAL1648.md
 - _sposa/002 - BOHO BRIDE - REM1678.md
-- _sposa/002 - Charlotte - MS1632.md
 - _sposa/002 - E0701 - EGO'1662.md
 - _sposa/002 - JOA20261 - JOL1623.md
+- _sposa/002 - MENTA 1634.md
 - _sposa/002 - PREZIOSA - DAL1661.md
 - _sposa/002 - RED - INM1664.md
 - _sposa/003 - BOHO BRIDE - REM1678.md
-- _sposa/003 - Charlotte - MS1632.md
 - _sposa/003 - E686B - EGO'1653.md
 - _sposa/003 - JOA20261 - JOL1623.md
 - _sposa/003 - LOLITA - DAL1636.md
+- _sposa/003 - MENTA 1634.md
 - _sposa/003 - RED - INM1664.md
 - _sposa/004 - E0695 - EGO'1665.md
+- _sposa/004 - ELICRISO 1670.md
 - _sposa/004 - JOA20521 - JOL1624.md
 - _sposa/004 - LILA GRACE - REM1679.md
 - _sposa/004 - LIME - INM1663.md
 - _sposa/004 - LOLITA - DAL1636.md
-- _sposa/004 - Muriel - MS1670.md
 - _sposa/005 - E0695 - EGO'1665.md
+- _sposa/005 - ELICRISO 1670.md
 - _sposa/005 - JOA20521 - JOL1624.md
 - _sposa/005 - LILA GRACE - REM1679.md
 - _sposa/005 - LIME - INM1663.md
-- _sposa/005 - Muriel - MS1670.md
 - _sposa/006 - E0695 - EGO'1665.md
+- _sposa/006 - ELICRISO 1670.md
 - _sposa/006 - JOA20521 . JOL1624.md
 - _sposa/006 - LILA GRACE - REM1679.md
 - _sposa/006 - LIME - INM1663.md
-- _sposa/006 - Muriel - MS1670.md
 - _sposa/007 - CASABLANCA - REM1680.md
 - _sposa/007 - E0711 - EGO'1673.md
+- _sposa/007 - ELICRISO 1670.md
 - _sposa/007 - JOA20571 - JOL1625.md
 - _sposa/007 - LAUREL - INM1666.md
-- _sposa/007 - Muriel - MS1670.md
 - _sposa/008 - CASABLANCA - REM1680.md
 - _sposa/008 - E0711 - EGO'1673.md
+- _sposa/008 - ELICRISO 1670.md
 - _sposa/008 - JOA20571 . JOL1625.md
 - _sposa/008 - LAUREL - INM1666.md
-- _sposa/008 - Muriel - MS1670.md
 - _sposa/009 - CASABLANCA - REM1680.md
 - _sposa/009 - E0711 - EGO'1673.md
+- _sposa/009 - EDERA 1671.md
 - _sposa/009 - JOA20571 - JOL1625.md
 - _sposa/009 - LAUREL - INM1666.md
-- _sposa/009 - Lucia - MS1671.md
 - _sposa/010 - E0706 - EG0'1675.md
+- _sposa/010 - EDERA 1671.md
 - _sposa/010 - INSOLITE - REM1681.md
 - _sposa/010 - JOA20341 - JOL1639.md
-- _sposa/010 - Lucia - MS1671.md
 - _sposa/011 - E0706 - EG0'1675.md
+- _sposa/011 - EDERA 1671.md
 - _sposa/011 - INSOLITE - REM1681.md
 - _sposa/011 - JOA20341 - JOL1639.md
-- _sposa/011 - Lucia - MS1671.md
 - _sposa/012 - E0706 - EGO'1675.md
+- _sposa/012 - EDERA 1671.md
 - _sposa/012 - INSOLITE - REM1681.md
 - _sposa/012 - JOA20341 - JOL1639.md
-- _sposa/012 - Lucia - MS1671.md
 - _sposa/013 - DIAZ - REM1682.md
 - _sposa/013 - E0705 - EGO'1677.md
+- _sposa/013 - EDERA 1671.md
 - _sposa/013 - JOA20691 - JOL1641.md
-- _sposa/013 - Lucia - MS1671.md
 - _sposa/014 - DIAZ - REM1682.md
 - _sposa/014 - E0705 - EGO'1677.md
+- _sposa/014 - IPERICO 1656.md
 - _sposa/014 - JOA20691 - JOL1641.md
-- _sposa/014 - Trudie - MS1656.md
 - _sposa/015 - DIAZ - REM1682.md
 - _sposa/015 - E0705 - EGO'1677.md
+- _sposa/015 - IPERICO 1656.md
 - _sposa/015 - JOA20421 . JOL1642.md
-- _sposa/015 - Trudie - MS1656.md
+- _sposa/016 - IPERICO 1656.md
 - _sposa/016 - JOA20421 - JOL1642.md
-- _sposa/016 - Trudie - MS1656.md
+- _sposa/017 - IPERICO 1656.md
 - _sposa/017 - JOA20242 - JOL1644.md
-- _sposa/017 - Trudie - MS1656.md
-- _sposa/018 - Bonita - MS1631.md
 - _sposa/018 - JOA20242 - JOL1644.md
-- _sposa/019 - Bonita - MS1631.md
+- _sposa/018 - MAGNOLIA 1631.md
 - _sposa/019 - JOA20242 - JOL1644.md
-- _sposa/020 - Bonita - MS1631.md
+- _sposa/019 - MAGNOLIA 1631.md
 - _sposa/020 - JOA20101 - JOL1646.md
-- _sposa/021 - Hilda - MS1668.md
+- _sposa/020 - MAGNOLIA 1631.md
+- _sposa/021 - BIANCOSPINO 1668.md
 - _sposa/021 - JOA20101 - JOL1646.md
-- _sposa/022 - Hilda - MS1668.md
+- _sposa/022 - BIANCOSPINO 1668.md
 - _sposa/022 - JOL20101 - JOL1646.md
-- _sposa/023 - Hilda - MS1668.md
+- _sposa/023 - BIANCOSPINO 1668.md
 - _sposa/023 - JOA20201 - JOL1651.md
-- _sposa/024 - Hilda - MS1668.md
+- _sposa/024 - BIANCOSPINO 1668.md
 - _sposa/024 - JOA20201 - JOL1651.md
-- _sposa/025 - Antonia - MS1657.md
+- _sposa/025 - GIGLIO 1657.md
 - _sposa/025 - JOA20871 - JOL1626.md
-- _sposa/026 - Antonia - MS1657.md
+- _sposa/026 - GIGLIO 1657.md
 - _sposa/026 - JOA20871 - JOL1626.md
-- _sposa/027 - Antonia - MS1657.md
+- _sposa/027 - GIGLIO 1657.md
 - _sposa/027 - JOA20871 - JOL1626.md
-- _sposa/028 - Antonia - MS1657.md
+- _sposa/028 - GIGLIO 1657.md
 - _sposa/028 - JOA20931 - JOL1627.md
-- _sposa/029 - Becky - MS1659.md
+- _sposa/029 - IBISCO 1659.md
 - _sposa/029 - JOA20931 - JOL1627.md
-- _sposa/030 - Becky - MS1659.md
+- _sposa/030 - IBISCO 1659.md
 - _sposa/030 - JOA20751 - JOL1628.md
-- _sposa/031 - Becky - MS1659.md
+- _sposa/031 - IBISCO 1659.md
 - _sposa/031 - JOA20751 - JOL1628.md
+- _sposa/032 - CAMPANULA 1635.md
 - _sposa/032 - JOA20821 - JOL1629.md
-- _sposa/032 - Jasmine - MS1635.md
+- _sposa/033 - CAMPANULA 1635.md
 - _sposa/033 - JOA20821 - JOL1629.md
-- _sposa/033 - Jasmine - MS1635.md
+- _sposa/034 - CAMPANULA 1635.md
 - _sposa/034 - JOA20941 - JOL1630.md
-- _sposa/034 - Jasmine - MS1635.md
 - _sposa/035 - JOA20941 - JOL1630.md
 - _sposa/036 - JOA20981 - JOL1638.md
 - _sposa/037 - JOA20981 - JOL1638.md
