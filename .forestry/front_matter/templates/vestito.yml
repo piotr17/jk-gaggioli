@@ -45,6 +45,7 @@ fields:
   description: Inserisci in che ordine deve apparire il vestito
 pages:
 - _accessori/test.md
+- _cerimonia/01 - impero - 1272.md
 - _cerimonia/01-maestri-1227.md
 - _cerimonia/01-soniapena-1213.md
 - _cerimonia/01-soniapena-1258.md
