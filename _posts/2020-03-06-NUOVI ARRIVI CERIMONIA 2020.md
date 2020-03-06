@@ -3,6 +3,7 @@ layout: post
 tags: []
 immagini:
 - "/v1583514466/viterbo/IMG-20200306-WA0000_dcsr8m.jpg"
+- "/v1583516044/viterbo/IMG-20200306-WA0012_copia_wylgtw.jpg"
 - "/v1583514765/viterbo/IMG_20200306_112907_zmodwl.jpg"
 - "/v1583514682/viterbo/IMG_20200306_112005_jsjnj3.jpg"
 
