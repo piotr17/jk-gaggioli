@@ -2,6 +2,7 @@
 layout: post
 tags: []
 immagini:
+- "/v1587321625/viterbo/IMG-20200419-WA0022_hwg0dk.jpg"
 - "/v1587320974/viterbo/IMG-20200419-WA0014_bdbogr.jpg"
 - "/v1587320974/viterbo/IMG-20200419-WA0013_scnhao.jpg"
 - "/v1587320974/viterbo/IMG-20200419-WA0012_wdhoi3.jpg"
