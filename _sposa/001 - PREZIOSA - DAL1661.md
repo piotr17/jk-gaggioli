@@ -1,11 +1,12 @@
 ---
 layout: vestito
-aggettivi: []
+aggettivi:
+- romantico
 image: "/v1569947247/viterbo/DAL1637-DELIZIA_retro_w1a6dy.jpg"
 brand: dalin
 ordine: 1
 
 ---
-Abito **romantico** in organza. Corpino con applicazioni ricamate in perline E manichina leggermente scesa.
+Abito da sposa stile principesco in organza. Prezioso corpino con applicazioni ricamate in perline e manica leggermente scesa.
 
-La gonna è arricchita nel retro da ruches impreziosite dallo stesso ricamo del corpino.
+Il retro della gonna è ingentilito da due pannelli in ruches impreziosite dallo stesso ricamo del corpino.
