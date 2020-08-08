@@ -1,11 +1,12 @@
 ---
 layout: vestito
-aggettivi: []
+aggettivi:
+- boho chic
 image: "/v1570617824/viterbo/INM166_-_LAUREL_eef5vv.jpg"
 brand: inmaculada
 ordine: 1
 
 ---
-Abito in particolarissimo stile boho chic.
+Abito da sposa stile boho chic.
 
-Il corpino alterna fasce in pizzo a fasce in tulle trasparente che si ripetono nella manica lunga.
+Innovativo corpino off shoulder a fasce orizzontali che alternano pizzo e tulle trasparente in un ritmo che si ritrova sulle maniche e lungo la gonna.
