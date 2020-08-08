@@ -7,4 +7,4 @@ brand: rembo-styling
 ordine: 1
 
 ---
-Abito da sposa scivolato in morbido pizzo macramè e corpino con manica corta.
+Abito da sposa stile boho in morbido pizzo macramè e corpino con manica corta.
