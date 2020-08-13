@@ -2,7 +2,7 @@
 layout: vestito
 aggettivi:
 - boho chic
-image: "/v1573897090/viterbo/REM1678_-_BOHO_BRIDEdettaglio_fcejxr.jpg"
+image: "/v1597314754/viterbo/REM1678_-_BOHO_BRIDE_3_mod_pomnhj.jpg"
 brand: rembo-styling
 ordine: 1
 
