@@ -2,7 +2,7 @@
 layout: vestito
 aggettivi:
 - boho chic
-image: "/v1573897354/viterbo/REM1679_-_LILA_GRACEdettaglio_vrnfzp.jpg"
+image: "/v1597314841/viterbo/REM1679_-_LILA_GRACE_mod_we844m.jpg"
 brand: rembo-styling
 ordine: 1
 
