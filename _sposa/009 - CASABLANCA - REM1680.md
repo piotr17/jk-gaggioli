@@ -2,7 +2,7 @@
 layout: vestito
 aggettivi:
 - boho chic
-image: "/v1573898138/viterbo/REM1680_-_CASABLANCAretro_okaqe3.jpg"
+image: "/v1597315072/viterbo/REM1680_-_CASABLANCA_2_mod_gjer8w.jpg"
 brand: rembo-styling
 ordine: 1
 
