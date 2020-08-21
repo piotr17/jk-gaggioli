@@ -1,7 +1,7 @@
 ---
 layout: vestito
 aggettivi: []
-image: "/v1583168193/viterbo/4627-min_usknwx.jpg"
+image: "/v1598014811/viterbo/CSPH5453-min_mod_kg1hbh.jpg"
 brand: maestri
 ordine: 
 
