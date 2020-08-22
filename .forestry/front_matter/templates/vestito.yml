@@ -44,7 +44,6 @@ fields:
     step: 
   description: Inserisci in che ordine deve apparire il vestito
 pages:
-- _accessori/test.md
 - _cerimonia/001 - BAG1284.md
 - _cerimonia/002 - BAG1286.md
 - _cerimonia/003 - BAG1281.md
