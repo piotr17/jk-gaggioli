@@ -3,7 +3,7 @@ layout: vestito
 aggettivi:
 - boho chic
 image: "/v1597314841/viterbo/REM1679_-_LILA_GRACE_mod_we844m.jpg"
-brand: rembo-styling
+brand: gaggioli-sposi
 ordine: 1
 
 ---
