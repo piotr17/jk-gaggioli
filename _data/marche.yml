@@ -1,120 +1,117 @@
+---
 marca1:
   type: sposo
-  title: "Marca 1"
+  title: Marca 1
   logo: https://picsum.photos/200/300/?random
 classic-collection:
   type: sposo
-  title: "Classic Collection"
-  logo: /assets/img/abiti-sposo/thumb-collection.jpg
+  title: Classic Collection
+  logo: "/assets/img/abiti-sposo/thumb-collection.jpg"
 vivie:
   type: sposo
-  title: "Vivie"
-  logo: /assets/img/abiti-sposa/thumb-vivie.jpg
+  title: Vivie
+  logo: "/assets/img/abiti-sposa/thumb-vivie.jpg"
 ego:
   type: sposa
-  title: "Ego"
-  logo: /assets/img/abiti-sposa/thumb-ego.jpg
-vivie:
-  type: sposo
-  title: "Vivie"
-  logo: /assets/img/abiti-sposa/thumb-vivie.jpg
+  title: Ego
+  logo: "/assets/img/abiti-sposa/thumb-ego.jpg"
 rosa-clara:
   type: sposo
-  title: "Rosa Clara"
-  logo: /assets/img/abiti-sposa/thumb-rosa-clara.jpg
+  title: Rosa Clara
+  logo: "/assets/img/abiti-sposa/thumb-rosa-clara.jpg"
 mori-lee:
   type: sposo
-  title: "Mori Lee"
-  logo: /assets/img/abiti-sposa/thumb-mori-lee.jpg
+  title: Mori Lee
+  logo: "/assets/img/abiti-sposa/thumb-mori-lee.jpg"
 petrelli:
   type: sposo
-  title: "Petrelli"
-  logo: /assets/img/abiti-sposo/thumb-petrelli.jpg
+  title: Petrelli
+  logo: "/assets/img/abiti-sposo/thumb-petrelli.jpg"
 lubiam:
   type: sposo
-  title: "Lubiam"
-  logo: /assets/img/abiti-sposo/thumb-lubiam.jpg
+  title: Lubiam
+  logo: "/assets/img/abiti-sposo/thumb-lubiam.jpg"
 scribano-1966:
   type: sposo
-  title: "Scribano 1966"
-  logo: /assets/img/abiti-sposo/scribano1966.jpg
+  title: Scribano 1966
+  logo: "/assets/img/abiti-sposo/scribano1966.jpg"
 inmaculada:
   type: sposa
-  title: "Inmaculada Garcia"
-  logo: /assets/img/abiti-sposa/thumb-inmaculada.jpg
+  title: Inmaculada Garcia
+  logo: "/assets/img/abiti-sposa/thumb-boho.jpg"
 rembo-styling:
   type: sposa
-  title: "Rembo Styling"
-  logo: /assets/img/abiti-sposa/thumb-rembo-styling.jpg
+  title: Rembo Styling
+  logo: "/assets/img/abiti-sposa/thumb-rembo-styling.jpg"
 polignano:
   type: sposa
-  title: "Elisabetta Polignano"
-  logo: /assets/img/abiti-sposa/thumb-polignano.jpg
+  title: Elisabetta Polignano
+  logo: "/assets/img/abiti-sposa/thumb-polignano.jpg"
 joie-de-vivre:
   type: sposa
-  title: "Joie de Vivre"
-  logo: /assets/img/abiti-sposa/thumb-joie.jpg
+  title: Joie de Vivre
+  logo: "/assets/img/abiti-sposa/thumb-joie.jpg"
 valentini-couture:
   type: sposa
-  title: "Valentini Couture"
-  logo: /assets/img/abiti-sposa/valentinicouture.jpg
+  title: Valentini Couture
+  logo: "/assets/img/abiti-sposa/valentinicouture.jpg"
 jolies:
   type: sposa
-  title: "Jolies"
-  logo: /assets/img/abiti-sposa/thumb-jolies.jpg
+  title: Jolies
+  logo: "/assets/img/abiti-sposa/thumb-jolies.jpg"
 gaggioli-sposi:
   type: sposa
-  title: "Gaggioli Sposi"
-  logo: /assets/img/abiti-sposa/thumb-gaggioli-sposi.jpg
+  title: Gaggioli Sposi
+  logo: "/assets/img/abiti-sposa/thumb-gaggioli-sposi.jpg"
 martha-blanc:
   type: sposa
-  title: "Martha Blanc"
-  logo: /assets/img/abiti-sposa/thumb-marta-blanc.jpg
+  title: Martha Blanc
+  logo: "/assets/img/abiti-sposa/thumb-marta-blanc.jpg"
 graziana-valentini:
   type: sposa
-  title: "Graziana Valentini"
-  logo: /assets/img/abiti-sposa/graziana.jpg
+  title: Graziana Valentini
+  logo: "/assets/img/abiti-sposa/graziana.jpg"
 jolie:
   type: sposa
-  title: "Jolie"
-  logo: /assets/img/abiti-sposa/thumb-jolies.jpg
+  title: Jolie
+  logo: "/assets/img/abiti-sposa/thumb-jolies.jpg"
 Le-damigelle-di-Caroline-M:
   type: sposa
-  title: "Damigelle Caroline"
-  logo: /assets/img/abiti-cerimonia/thumb-damigelle-caroline.jpg
+  title: Damigelle Caroline
+  logo: "/assets/img/abiti-cerimonia/thumb-damigelle-caroline.jpg"
 impero:
   type: sposa
-  title: "Impero"
-  logo: /assets/img/abiti-cerimonia/thumb-impero.jpg
+  title: Impero
+  logo: "/assets/img/abiti-cerimonia/thumb-impero.jpg"
 maestri:
   type: sposa
-  title: "Maestri"
-  logo: /assets/img/abiti-cerimonia/thumb-maestri-group.jpg
+  title: Maestri
+  logo: "/assets/img/abiti-cerimonia/thumb-maestri-group.jpg"
 bagatelle:
   type: cerimonia
-  title: "Bagatelle"
-  logo: /assets/img/abiti-cerimonia/thumb-bagatelle.jpg
+  title: Bagatelle
+  logo: "/assets/img/abiti-cerimonia/thumb-bagatelle.jpg"
 Sonia-Pena:
   type: sposa
-  title: "Sonia Pena"
-  logo: /assets/img/abiti-cerimonia/thumb-sonia-pena.jpg
+  title: Sonia Pena
+  logo: "/assets/img/abiti-cerimonia/thumb-sonia-pena.jpg"
 dalin:
   type: sposa
-  title: "Dalin"
-  logo: /assets/img/abiti-sposa/dalin.jpg
+  title: Dalin
+  logo: "/assets/img/abiti-sposa/dalin.jpg"
 dalia:
   type: sposa
-  title: "Dalia"
-  logo: /assets/img/abiti-sposa/dalia.jpg
+  title: Dalia
+  logo: "/assets/img/abiti-sposa/dalia.jpg"
 galizia:
   type: sposa
-  title: "Galizia"
-  logo: /assets/img/abiti-sposa/galizia.png
+  title: Galizia
+  logo: "/assets/img/abiti-sposa/galizia.png"
 magnani:
   type: sposa
-  title: "Magnani"
-  logo: /assets/img/abiti-sposa/magnani.png
+  title: Magnani
+  logo: "/assets/img/abiti-sposa/magnani.png"
 vinni:
   type: sposa
-  title: "Vinnì"
-  logo: /assets/img/abiti-sposa/vinni.jpg
+  title: Vinnì
+  logo: "/assets/img/abiti-sposa/vinni.jpg"
