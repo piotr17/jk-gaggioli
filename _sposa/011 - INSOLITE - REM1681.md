@@ -3,7 +3,7 @@ layout: vestito
 aggettivi:
 - boho chic
 image: "/v1597315161/viterbo/REM1681_-_INSOLITE_2_mod_kl9wkc.jpg"
-brand: rembo-styling
+brand: gaggioli-sposi
 ordine: 1
 
 ---
