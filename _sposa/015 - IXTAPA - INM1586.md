@@ -3,7 +3,7 @@ layout: vestito
 aggettivi:
 - boho
 ordine: 1
-image: "/v1598266327/viterbo/INM1586_-_IXTAPA_min_mod_hzyyom.jpg"
+image: "/v1598266474/viterbo/INM1586_-_IXTAPA_2_min_mod_hrkqni.jpg"
 brand: gaggioli-sposi
 
 ---
