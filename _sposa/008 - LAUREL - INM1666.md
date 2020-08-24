@@ -2,8 +2,8 @@
 layout: vestito
 aggettivi:
 - boho chic
-image: "/v1570618022/viterbo/INM166_-_LAUREL_retro_kxvptl.jpg"
-brand: inmaculada
+image: "/v1598286337/viterbo/Laurel_-_INM1666_2_rfznsl.jpg"
+brand: gaggioli-sposi
 ordine: 1
 
 ---
