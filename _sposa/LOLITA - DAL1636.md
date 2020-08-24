@@ -5,7 +5,6 @@ aggettivi:
 ordine: 0
 image: "/v1598287447/viterbo/IMG_E5686_mod_ypfhm7.png"
 brand: gaggioli-sposi
-published: false
 
 ---
  Abito da sposa con ampia gonna in elegante effetto mikado, impreziosita da importante corpino con scollo a cuore interamente ricamato con perline e cristalli.
