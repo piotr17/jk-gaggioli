@@ -1,0 +1,10 @@
+---
+layout: vestito
+aggettivi:
+- 'boho '
+ordine: 1
+image: "/v1598265761/viterbo/INM1521_-_AMBAR_min_mod_fpjize.jpg"
+brand: gaggioli-sposi
+
+---
+Abito da sposa  stile boho chic con profonda scollatura a V sul davanti e gonna in morbido tulle intervallata da balze in pizzo. 
