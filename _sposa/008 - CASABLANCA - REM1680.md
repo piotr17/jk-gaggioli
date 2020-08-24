@@ -3,7 +3,7 @@ layout: vestito
 aggettivi:
 - boho chic
 image: "/v1597315027/viterbo/REM1680_-_CASABLANCA_mod_xs8x7o.jpg"
-brand: rembo-styling
+brand: gaggioli-sposi
 ordine: 1
 
 ---
