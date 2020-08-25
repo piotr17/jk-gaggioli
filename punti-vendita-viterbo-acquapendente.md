@@ -16,7 +16,7 @@ Tel.: 0761 352901
 
 Whatsapp: 379.1507510
 
-Dal lunedì al venerdì 10.00-13.00 – 14.30-19.00 sabato 10.00-19.00
+Dal lunedì al venerdì 10.00-13.00 – 15.00-19.00 sabato 10.00-19.00
 
 Chiuso la Domenica
 
