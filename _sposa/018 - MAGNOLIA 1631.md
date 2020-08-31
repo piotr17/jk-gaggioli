@@ -3,7 +3,7 @@ layout: vestito
 aggettivi:
 - romantico
 image: "/v1572700501/viterbo/IMG_6513mod._gdmha0.jpg"
-brand: gaggioli-sposi
+brand: romantic
 ordine: 1
 
 ---
