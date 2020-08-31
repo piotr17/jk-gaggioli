@@ -3,7 +3,7 @@ layout: vestito
 aggettivi:
 - sirena
 image: "/v1572701903/viterbo/IMG_6535_go7ti3.jpg"
-brand: gaggioli-sposi
+brand: romantic
 ordine: 1
 
 ---
