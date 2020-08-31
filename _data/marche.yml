@@ -11,17 +11,17 @@ marca1:
   type: sposo
   title: Marca 3
   logo: https://picsum.photos/200/300/?random
-marca1:
+boho:
   type: sposa
   title: Boho Bride
   logo: https://picsum.photos/200/300/?random
-marca2:
+contemporary:
   type: sposa
   title: Contemporary Bride
   logo: https://picsum.photos/200/300/?random
-marca3:
-  type: Romantic Bride
-  title: Marca 3
+romantic:
+  type: sposa
+  title: Romantic Bride
   logo: https://picsum.photos/200/300/?random
 classic-collection:
   type: sposo
