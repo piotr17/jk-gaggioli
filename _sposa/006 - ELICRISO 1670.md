@@ -3,7 +3,7 @@ layout: vestito
 aggettivi:
 - romantico
 image: "/v1598626565/viterbo/CSPH2744-min_mod_mhlnzk.jpg"
-brand: gaggioli-sposi
+brand: romantic
 ordine: 1
 
 ---
