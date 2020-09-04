@@ -1,0 +1,13 @@
+---
+layout: vestito
+aggettivi:
+- 'scivolato  '
+ordine: 1
+image: "/v1599230428/viterbo/11-Solid-Gold-REM1528_h7ydun.jpg"
+brand: boho
+published: false
+
+---
+Abito da sposa stile boho chic dalla linea morbida. 
+
+Un pannello in romantico tulle puntinato riveste l'intero abito, a partire dalle ampie bretelle del corpino fino alla gonna, aprendosi sul retro in un leggero strascico.
