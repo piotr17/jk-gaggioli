@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    {% include head.html %}
+    <script src="/assets/js/vendor/lazysizes.min.js" async></script>
+    <script src="/assets/js/vendor/imagesloaded.pkgd.min.js" defer></script>
+    <script src="/assets/js/vendor/isotope.pkgd.js" defer></script>
+    <script src="/assets/js/vendor/packery-mode.pkgd.min.js" defer></script>
+    <script src="/assets/js/isotope-script.js" defer></script>
+    <title>{{page.title}} | Gaggioli Sposi | Abiti da Sposa, Abiti da Sposo, Proposte per la Cerimonia - Viterbo</title>
+
+</head>
+
+<body>
+
+    {% include gtmbody.html %} {% include header.html %}
+    <header class="container-fluid mt-5">
+        <h1>{{page.title}}</h1>
+    </header>
+    <main class="container-fluid">
+        {% include category-nobrand--loop.html %}
+    </main>
+    {% include footer.html %}{% include contact-form.html %}
+
+</body>
+
+</html>

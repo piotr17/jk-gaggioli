@@ -14,15 +14,15 @@ marca1:
 boho:
   type: sposa
   title: Boho Bride
-  logo: https://picsum.photos/200/300/?random
+  logo: /assets/img/abiti-sposa/boho.png
 contemporary:
   type: sposa
   title: Contemporary Bride
-  logo: https://picsum.photos/200/300/?random
+  logo: /assets/img/abiti-sposa/contemporary.png
 romantic:
   type: sposa
   title: Romantic Bride
-  logo: https://picsum.photos/200/300/?random
+  logo: /assets/img/abiti-sposa/romantic.png
 classic-collection:
   type: sposo
   title: Classic Collection

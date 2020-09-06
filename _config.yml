@@ -29,9 +29,7 @@ cloudinary_path: "dtd4duitw"
 markdown: kramdown
 theme: minima
 plugins:
-  - jekyll-feed
   - jekyll-sitemap
-
   - jekyll-seo-tag
 lang: it_IT
 sass:
@@ -41,6 +39,8 @@ include: ["_redirects"]
 
 profile: true
 collections:
+  abiti-sposa:
+    output: true
   sposo:
     output: true
   sposa:

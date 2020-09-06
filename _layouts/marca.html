@@ -1,5 +1,5 @@
 <!doctype html>
-{% assign brand = page.title | slugify %}
+{% assign brand = page.marca %}
 <html lang="it">
 
 <head>
@@ -15,22 +15,37 @@
 <body>
     {% include gtmbody.html %} {% include footer-scripts.html %}{% include header.html %}
     
-    <header class="container-fluid p-4">
+    <header class="container-fluid p-2 mt-5">
             <div class="row">
-                    <div class="col-2"><h1><img src="{{site.data.marche[brand].logo}}" alt="{{site.data.marche[brand].name}}"></h1></div>
-                    <div class="col"><p>{{content}}</p></div>
-                </div>
+                    <div class="col col-md-2"><h1><img class="img-fluid" src="{{site.data.marche[brand].logo}}" alt="{{site.data.marche[brand].name}}"></h1></div>
+                    <div class="d-sm-none col-md-10 ">
+                       <!--  {% assign group = page.aggettivi | group_by : "aggettivi" %}
+                        <div class="button-group filter-button-group">
+                            <div class="d-flex flex-row align-items-center justify-content-center align-content-stretch flex-wrap" itemscope itemtype="http://schema.org/Brand">
+                                <button class="btn btn-link btn-brand col-xs-3" data-filter="*"><img src="/assets/img/tutti.jpg" width="100" class="img-fluid" alt="tutti"></button> 
+                                {% for item in group %} 
+                                    {% if item.name != empty %}
+                                        <button class="btn btn-link btn-brand col-xs-3" data-filter=".{{item.name}}">{{item.name}}</button> 
+                                    {%endif%} 
+                                {% endfor %}
+                            </div>-->
+                        </div>
+
+
+
+
+                    </div>
+                </div> 
     </header>
-    <main class="container-fluid">
+<main class="container-fluid">
         <div class="row">
             <div class="col-lg-12">
                     <div class="grid">
                         <div class="grid-sizer"></div>
                         {% assign collection = site[page.type] | where : "brand",brand %}
                         {%- for item in collection -%}
-                        <div class="grid-item">
-                            <a href="{{item.url}}"><img src="https://res.cloudinary.com/dtd4duitw/image/upload/c_scale,q_auto:good,w_400{{item.image}}" class="card-img-top" alt="{{item.title}}"></a>
-                            </a>
+                        <div class="grid-item {{item.brand}} card shadow">
+                            <a href="{{item.url}}"><img data-src="https://res.cloudinary.com/dtd4duitw/image/upload/f_auto,fl_lossy,q_auto,fl_progressive,w_400{{item.image}}" class="lazyload card-img-top" alt="{{item.title}}"></a>
                         </div>
                            {%- endfor -%}
                     </div>
