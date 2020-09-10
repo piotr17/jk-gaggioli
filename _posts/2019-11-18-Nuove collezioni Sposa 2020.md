@@ -12,7 +12,7 @@ immagini:
 - "/v1567255253/viterbo/JOL1642-JOA20421_nkzhxz.jpg"
 
 ---
-**COLLEZIONI SPOSA 2020**
+**COLLEZIONI SPOSA** 
 
 Qual è il momento più adatto per scegliere l’abito da sposa?? Semplice…**ADESSO**!
 
