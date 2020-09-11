@@ -1,8 +1,7 @@
 ---
 layout: post
 tags: []
-immagini:
-- "/csph4049-min-mod.jpg"
+immagini: []
 
 ---
 **COLLEZIONI SPOSA**
