@@ -1,8 +1,7 @@
 ---
 layout: post
 tags: []
-immagini:
-- INM1663 - LIME 4min mod
+immagini: []
 
 ---
 **COLLEZIONI SPOSA** 
