@@ -1,8 +1,7 @@
 ---
 layout: post
 tags: []
-immagini:
-- "/val1584-4-min-mod.jpg"
+immagini: []
 
 ---
 L'appuntamento di **Realizza il tuo sogno** è il più atteso del calendario del punto vendita **Gaggioli Sposi di Viterbo**.
