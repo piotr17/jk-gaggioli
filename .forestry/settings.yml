@@ -51,7 +51,7 @@ sections:
   create: none
   match: "**/*.{json,yaml,yml}"
 upload_dir: viterbo
-public_path: ''
+public_path: viterbo
 front_matter_path: ''
 use_front_matter_path: 
 file_template: ":filename:"
