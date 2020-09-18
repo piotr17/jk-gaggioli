@@ -1,7 +1,8 @@
 ---
 layout: post
 tags: []
-immagini: []
+immagini:
+- viterbo/v1600443119/viterbo/test_jmgopt.jpg
 
 ---
 L'appuntamento di **Realizza il tuo sogno** è il più atteso del calendario del punto vendita **Gaggioli Sposi di Viterbo**.
