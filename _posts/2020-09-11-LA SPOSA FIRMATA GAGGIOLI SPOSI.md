@@ -1,8 +1,7 @@
 ---
 layout: post
 tags: []
-immagini:
-- viterbo/v1600683040/viterbo/REM1678_-_BOHO_BRIDE_2_mod_odosqc.jpg
+immagini: []
 
 ---
 **COLLEZIONI SPOSA**
