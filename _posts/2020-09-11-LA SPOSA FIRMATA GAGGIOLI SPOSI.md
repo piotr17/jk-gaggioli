@@ -1,7 +1,8 @@
 ---
 layout: post
 tags: []
-immagini: []
+immagini:
+- viterbo/v1600937608/viterbo/IMG-20200921-WA0078_mod_cpnqrb.jpg
 
 ---
 **COLLEZIONI SPOSA**
