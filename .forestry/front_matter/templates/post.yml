@@ -14,7 +14,6 @@ fields:
   label: immagini
   description: Inserire le immagini, appariranno come una gallery
 pages:
-- _posts/2018-11-07-scribano-1966.md
 - _posts/2020-03-06-NUOVI ARRIVI CERIMONIA 2020.md
 - _posts/2020-09-11-LA SPOSA FIRMATA GAGGIOLI SPOSI.md
 - _posts/2020-09-14-Gaggioli Sposi presenta Realizza il tuo sogno.md
