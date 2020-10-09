@@ -2,7 +2,7 @@
 layout: post
 tags: []
 immagini:
-- "/v1602256383/IMG_1991_om7ifk.jpg"
+- "/v1600683040/viterbo/REM1678_-_BOHO_BRIDE_2_mod_odosqc.jpg"
 
 ---
 Quante di voi, prima di affrontare la prova dell'abito da sposa in un atelier si sono chieste: ma come funziona una prova? Servirà qualcosa? Cosa devo portare? Con chi andare per farmi consigliare al meglio?
