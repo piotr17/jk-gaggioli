@@ -1,7 +1,8 @@
 ---
 layout: post
 tags: []
-immagini: []
+immagini:
+- "/v1599316340/viterbo/CSPH4213-min_mod_mddbgf.jpg"
 
 ---
 **COLLEZIONI SPOSA**
