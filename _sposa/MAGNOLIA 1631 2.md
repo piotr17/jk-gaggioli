@@ -2,7 +2,7 @@
 layout: vestito
 aggettivi:
 - romantico
-image: "/v1572700501/viterbo/IMG_6513mod._gdmha0.jpg"
+image: "/v1572701091/viterbo/IMG_6517mod2_ya9pwh.jpg"
 brand: romantic
 ordine: 1
 
