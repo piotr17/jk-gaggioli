@@ -1,0 +1,9 @@
+---
+layout: vestito
+aggettivi: []
+ordine: 0
+image: "/v1614684153/1302_bqiguo.jpg"
+brand: maestri
+published: false
+
+---
