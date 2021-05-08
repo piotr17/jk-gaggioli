@@ -12,8 +12,6 @@ Parco Commerciale "Città dei Papi", Strada Cassia Nord 22/s - Viterbo
 
 Email: info@gaggiolisposi.it - Skype: gaggiolisposi
 
-Tel.: 0761 352901
-
 Whatsapp: 379.1507510
 
 Dal lunedì al venerdì 10.00-13.00 – 15.00-19.00 sabato 10.00-19.00
