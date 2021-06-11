@@ -30,6 +30,6 @@ Piazza Maria Grazia Cutuli snc - Acquapendente (VT)
 
 Email: outlet@gaggiolisposi.it
 
-Tel.: 0763.730118 - Cell.: 328.3177382
+Tel.: 0763.730118 - Cell.: 379.1314978
 
 Orario dalle 09:00 alle 13:00 e dalle 16:30 alle 19:30 Chiuso Giovedì e Domenica.
