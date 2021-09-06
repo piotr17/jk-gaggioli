@@ -1,7 +1,12 @@
 ---
 layout: post
 tags: []
-immagini: []
+immagini:
+- "/v1630939330/6A142_3_NELA_t527yj.jpg"
+- "/v1630939261/28452075-c193-4b57-a2d9-f6b68cd1ea8a_i5udes.jpg"
+- "/v1630939196/2d7f98a5-32f9-4514-8f07-a9a6e20cdb8d_ddwldf.jpg"
+- "/v1630939181/40d0d110-6172-4eb8-bcd4-7a8dfc4d6e61_lmrn2g.jpg"
+- "/v1630939147/24-Louka-REM1533_dau9dj.jpg"
 
 ---
 E’ ormai da tempo che non si parla più de LA stagione dei matrimoni perché molte coppie dirigono il loro interesse ai mesi più freschi dell’anno.
